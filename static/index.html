@@ -1,0 +1,112 @@
+<html>
+    <head>
+        <title> T5 Political Compass</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="title-desc">Write a statement and see how it scores within T5's sentence embeddings</div>
+        <input id='takeInput' class="take-input" type="text"/>
+        <div class="outputs">
+            <div class="output">
+                <img class="graph" id="baseImg" src="images/loading.gif"/>
+                <img class="meme" style="width:147px; height:180px" src="images/base.jpeg"/>
+            </div>
+
+            <div class="output">
+                <img class="graph" id="largeImg" src="images/loading.gif"/>
+                <img class="meme" style="width:170px; height: 170px" src="images/large.png"/>
+            </div>
+
+            <div class="output">
+                <img class="graph" id="xlImg" src="images/loading.gif"/>
+                <img class="meme" style="width:165px; height:165px" src="images/xl.png"/>
+            </div>
+
+            <div class="output">
+                <img class="graph" id="xxlImg" src="images/loading.gif"/>
+                <img class="meme" style="width:153px; height:170px" src="images/xxl.png"/>
+            </div>
+        </div>
+
+        <div class="share-btn" id="shareBtn">Share</div>
+
+        <div class="description">
+            <div class="subtitle"> What is this? </div>
+            <div class="text"> Explaination</div>
+        </div>
+        <script>
+
+            var query = {}
+            if(window.location.search.length > 0){
+                window.location.search.slice(1).split("&").forEach(x=>{
+                    var items = x.split("=")
+                    if(items.length === 1){
+                        query[items[0]] = true
+                    }else{
+                        query[items[0]] = items[1]
+                    }
+                })
+            }
+
+            var inputEl = document.getElementById("takeInput")
+            var baseImg = document.getElementById("baseImg")
+            var largeImg = document.getElementById("largeImg")
+            var xlImg = document.getElementById("xlImg")
+            var xxlImg = document.getElementById("xxlImg")
+            var loading = false
+            var runs = {}
+            
+            
+            var isLoading = ()=>{
+                loading = true
+                baseImg.src = `images/loading.gif`
+                largeImg.src = `images/loading.gif`
+                xlImg.src = `images/loading.gif`
+                xxlImg.src = `images/loading.gif`
+            }
+
+            var load_results = (idx, statement)=>{
+                if(statement){
+                    inputEl.placeholder = statement
+                }
+                baseImg.src = `exports/t5-base-${idx}.png`
+                largeImg.src = `exports/t5-large-${idx}.png`
+                xlImg.src = `exports/t5-xl-${idx}.png`
+                xxlImg.src = `exports/t5-xxl-${idx}.png`
+                loading = false
+            }
+            
+            if(query["i"] === undefined){
+                load_results(2, "I have a mental disorder")
+            }else{
+                isLoading()
+                fetch("./exports/runs.txt").then(x=>{
+                    x.text().then(reqs=>{
+                        reqs.split("\n").forEach(l=>{
+                            var end = l.indexOf(":")
+                            runs[l.slice(0, end)] = l.slice(end+2)
+                        })
+                        if(runs[query["i"]] === undefined){
+                            load_results(2, "I have a mental disorder")
+                        }else{
+                            load_results(query["i"], runs[query["i"]])
+                        }
+                    })
+                })
+            }
+            
+
+            inputEl.addEventListener("keypress", (k)=>{
+                if(k.key === 'Enter' && !loading){
+                    isLoading()
+                    fetch("./calcHotTake?statement="+k.target.value).then(x=>{
+                        x.json().then(resp=>{
+                            load_results(resp['req_idx'], k.target.value)
+                        })
+                    })
+                }
+            })
+
+        </script>
+    </body>
+</html>
