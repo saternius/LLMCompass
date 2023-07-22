@@ -23,3 +23,86 @@
 .outputs{
     margin-top: 70px;
 }
+
+.share{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 20px;
+}
+
+.share-btn{
+    font-family: system-ui;
+    background: #4b6e93;
+    width: fit-content;
+    padding: 4px 10px 6px;
+    font-size: 20px;
+    border-radius: 2px;
+    color: whitesmoke;
+    line-height: 25px;
+    cursor: pointer;
+    margin: 14px;
+    user-select: none;
+    margin-left: 5px;
+}
+
+.share-btn:hover{
+    background-color: #3b5979;
+    color: white;
+}
+
+.share-btn:active{
+    background-color: #3c536c;
+    color: white;
+}
+
+.copy-confirm{
+    margin-top: 45px;
+    opacity: 0;
+}
+
+.git-btn{
+    width: 40px;
+    height: 40px;
+    padding: 12px 0px;
+}
+
+.co-btn{
+    width: 60px;
+    height: 40px;
+    padding: 12px 0px;
+}
+
+
+
+.description{
+    right: 60px;
+    width: 500px;
+    position: fixed;
+    top: 230px;
+    margin-bottom: 50px;
+    max-height: calc(80% - 200px);
+    
+}
+
+.subtitle{
+    font-family: system-ui;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.desc-box{
+    background-color: #f0f0f0;
+    padding: 15px;
+    border-radius: 4px;
+    box-shadow: -1px 1px 1px #c1b8b8;
+    overflow-y: auto;
+    max-height: 60vh;
+}
+
+@media only screen and (max-width: 1080px){
+    .description{
+        right: 0px;
+        top: 50px;
+        position: relative;
+    }
+}

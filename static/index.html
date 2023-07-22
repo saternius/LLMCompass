@@ -19,7 +19,7 @@
 
             <div class="output">
                 <img class="graph" id="xlImg" src="images/loading.gif"/>
-                <img class="meme" style="width:165px; height:165px" src="images/xl.png"/>
+                <img class="meme" style="width:150px; height:150px" src="images/xl.png"/>
             </div>
 
             <div class="output">
@@ -28,12 +28,50 @@
             </div>
         </div>
 
-        <div class="share-btn" id="shareBtn">Share</div>
+        
 
         <div class="description">
-            <div class="subtitle"> What is this? </div>
-            <div class="text"> Explaination</div>
+            <div class="desc-box">
+                <div class="subtitle"> What is this? </div>
+                <div class="text"> 
+                    The graph on the left is a heatmap on how similar a given input statement is to the sentence "The best economy is X and the best government is Y" according to the <a target="_blank" href="https://huggingface.co/docs/transformers/model_doc/t5">T5 Model's</a> sentence encodings.
+                    For example, the top left cell is colored by how similar the input statement is to the sentence "The best economy is communist and the best government is totalitarian".
+                    By using the political compass grid, we can inference how strongly language models associate different concepts with varying ideologies.
+    
+                    <br><br>
+                    4 graphs are constructed from the models of increasing parameter sizes:<br> Base: 223M params <br> Large: 738M params <br> XL: 3B params<br> XXL: 11B params<br><br>
+                    Similarity scored were constructed via <a href="https://en.wikipedia.org/wiki/Cosine_similarity" target="_blank">L2-Normed Cosine Similarity</a>.
+                    You can download the code on <a href="https://github.com/saternius/LLMCompass" target="_blank">Github</a>, or run it via <a href="https://colab.research.google.com/drive/1qoZsgUSdHpwK6B0COuS8fFXLer1Ea3ad?usp=sharing">Google Collab</a>
+                </div>
+                <br>
+                <div class="subtitle" style="font-size:20px"> Grains of Salt </div>
+                Always keep in mind that these outputs are from language models and not real people.
+                Though they do express some underlying classification mechanism that allows it to perform well on language tasks. 
+                It is not ground truth, and will often mix false sentements with real beliefs.
+                For instance, when it comes to techincal words like "schizophrenic", the language model will be influenced by the word's usage in common parlance.
+        
+    
+                <br><br>
+                The heatmap will attempt to exaggerate differences in score, so pay attention to the magnitude scale on the right <br><br>
+                The memes are for jest; Just because a model is bigger does not mean its classification is better. Additionally the models used here are tiny when compared to GPT which is rumoured to be an 8-way mixture model with each model having 220 billion parameters. 
+                I will eventually craft a similar experiment to this with the <a href="https://ai.meta.com/llama/" target="_blank">LLAMA 2 model</a><br>
+                
+                The biggest work to be done is to just inference the models and see and document what patterns exist, and to do so properlly requires expertise. 
+                If you are interested in this line of research feel free to contact me via discord <a href="https://discord.com/users/570425301545385994" target="_blank">@_jaybot</a>
+            </div>
+
+            <div class="share">
+                <a href="https://github.com/saternius/LLMCompass" target="_blank"><img class="git-btn" src="images/git.png"></a>
+                <a href="https://colab.research.google.com/drive/1qoZsgUSdHpwK6B0COuS8fFXLer1Ea3ad?usp=sharing" target="_blank"><img class="co-btn" src="images/colab.png"></a>
+    
+                <div class="share-btn" id="shareBtn">Share</div>
+                <div class="copy-confirm" id="copyConfirm">Link copied to clipboard</div>
+            </div>
+            
         </div>
+
+        
+
         <script>
 
             var query = {}
@@ -53,10 +91,16 @@
             var largeImg = document.getElementById("largeImg")
             var xlImg = document.getElementById("xlImg")
             var xxlImg = document.getElementById("xxlImg")
+            var shareBtn = document.getElementById("shareBtn")
+            var copyConfirm = document.getElementById("copyConfirm")
+            
+
             var loading = false
             var runs = {}
-            
-            
+            const DEFAULT_IDX = 11
+            const DEFAULT_STATEMENT = "I have a mental disorder"
+            var index = DEFAULT_IDX
+
             var isLoading = ()=>{
                 loading = true
                 baseImg.src = `images/loading.gif`
@@ -74,10 +118,11 @@
                 xlImg.src = `exports/t5-xl-${idx}.png`
                 xxlImg.src = `exports/t5-xxl-${idx}.png`
                 loading = false
+                index = idx
             }
             
             if(query["i"] === undefined){
-                load_results(2, "I have a mental disorder")
+                load_results(DEFAULT_IDX, DEFAULT_STATEMENT)
             }else{
                 isLoading()
                 fetch("./exports/runs.txt").then(x=>{
@@ -87,7 +132,7 @@
                             runs[l.slice(0, end)] = l.slice(end+2)
                         })
                         if(runs[query["i"]] === undefined){
-                            load_results(2, "I have a mental disorder")
+                            load_results(DEFAULT_IDX, DEFAULT_STATEMENT)
                         }else{
                             load_results(query["i"], runs[query["i"]])
                         }
@@ -106,6 +151,26 @@
                     })
                 }
             })
+
+            shareBtn.addEventListener("click", ()=>{
+                console.log("oki")
+                copyConfirm.style.opacity = 1
+                copyTextToClipboard(window.location.origin+"/?i="+index)
+            })
+
+            function copyTextToClipboard(text) {
+                if (!navigator.clipboard) {
+                    console.log("OOPSI")
+                    //fallbackCopyTextToClipboard(text);
+                    return;
+                }
+                navigator.clipboard.writeText(text).then(function() {
+                    console.log('Async: Copying to clipboard was successful!');
+                }, function(err) {
+                    console.error('Async: Could not copy text: ', err);
+                });
+            }
+
 
         </script>
     </body>
