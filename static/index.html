@@ -4,7 +4,7 @@
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <div class="title-desc">Write a statement and see how it scores within T5's sentence embeddings</div>
+        <div class="title-desc">Write a statement and hit Enter to see how it scores within T5's sentence embeddings</div>
         <input id='takeInput' class="take-input" type="text"/>
         <div class="outputs">
             <div class="output">
@@ -34,7 +34,7 @@
             <div class="desc-box">
                 <div class="subtitle"> What is this? </div>
                 <div class="text"> 
-                    The graph on the left is a heatmap on how similar a given input statement is to the sentence "The best economy is X and the best government is Y" according to the <a target="_blank" href="https://huggingface.co/docs/transformers/model_doc/t5">T5 Model's</a> sentence encodings.
+                    The graph on the left is a heatmap on how similar a given input statement is to the sentence "The best economy is X and the best government is Y" according to the <a target="_blank" href="https://ai.googleblog.com/2020/02/exploring-transfer-learning-with-t5.html">T5 Model's</a> sentence encodings.
                     For example, the top left cell is colored by how similar the input statement is to the sentence "The best economy is communist and the best government is totalitarian".
                     By using the political compass grid, we can inference how strongly language models associate different concepts with varying ideologies.
     
@@ -53,8 +53,9 @@
     
                 <br><br>
                 The heatmap will attempt to exaggerate differences in score, so pay attention to the magnitude scale on the right <br><br>
-                The memes are for jest; Just because a model is bigger does not mean its classification is better. Additionally the models used here are tiny when compared to GPT which is rumoured to be an 8-way mixture model with each model having 220 billion parameters. 
-                I will eventually craft a similar experiment to this with the <a href="https://ai.meta.com/llama/" target="_blank">LLAMA 2 model</a><br>
+                The memes are for jest; Just because a model is bigger does not mean its classification is better. Additionally the models used here are tiny when compared to ultra large LLMs like GPT, which is rumoured to be a mixture of experts model totaling ~1.8 trillion parameters.
+                Due to my GPU's ram limitations, I can only host this set of T5 models. There are a variety of language models with different internal representation. 
+                I will eventually craft a similar experiment to this with the <a href="https://ai.meta.com/llama/" target="_blank">LLAMA 2 model</a><br><br>
                 
                 The biggest work to be done is to just inference the models and see and document what patterns exist, and to do so properlly requires expertise. 
                 If you are interested in this line of research feel free to contact me via discord <a href="https://discord.com/users/570425301545385994" target="_blank">@_jaybot</a>
@@ -67,9 +68,11 @@
                 <div class="share-btn" id="shareBtn">Share</div>
                 <div class="copy-confirm" id="copyConfirm">Link copied to clipboard</div>
             </div>
-            
         </div>
 
+        <div class="unavail-banner">
+            App is currently offline. 
+        </div>
         
 
         <script>
@@ -97,7 +100,7 @@
 
             var loading = false
             var runs = {}
-            const DEFAULT_IDX = 11
+            const DEFAULT_IDX = 17
             const DEFAULT_STATEMENT = "I have a mental disorder"
             var index = DEFAULT_IDX
 

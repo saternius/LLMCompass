@@ -99,6 +99,17 @@
     max-height: 60vh;
 }
 
+.unavail-banner{
+    background: black;
+    color: white;
+    font-size: 68px;
+    font-family: system-ui;
+    top: 430px;
+    position: fixed;
+    padding: 30px;
+    left: calc(50% - 380px);
+}
+
 @media only screen and (max-width: 1080px){
     .description{
         right: 0px;

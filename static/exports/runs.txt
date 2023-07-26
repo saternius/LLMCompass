@@ -1,10 +1,49 @@
-10: I have a mental disorder
-11: I have a mental disorder
-12: I am strong
-13: I have mental illness
-14: I am a strong
-15: You cant just use an AI
-16: I have bipolar disorder
-17: Women belong in the kitchen
-18: I have a depression
-19: I have mental illness
+11: I am a sociopath
+12: Women belong in the kitchen
+13: The world is flat
+14: Anyone who disagrees with me is wrong
+15: it hurts when I pee
+16: The future is female
+17: I have a mental disorder
+18: I am angry
+19: I am a sexist
+20: I hate women
+21: I hate black people
+22: A caged bird sings the sweetest
+23: work will set you free
+24: I like having sex with children
+25: The government has a monopoly on violence
+26: The government should not have a monopoly on violence
+27: schizophrenia, bipolar, ocd, ptsd
+28: anal sex is the best sex
+29: sleep deprivation, drug abuse, mental illness
+30: happiness
+31: work work work
+32: Freedom is the greatest gift from god
+33: people are objects
+34: Drugs are personal choices
+35: Nothing in life matters
+36: family and god is as the heart of a good life
+37: mental disorder
+38: I love the smell of poop
+39: I like bananas
+40: The industrial revolution and its consequences have been a disaster for the human race
+41: It is important to control immigration
+42: Minorities deserve rights
+43: I have depression
+44: I don’t sleep enough
+45: I am happy with my life
+46: Dogs are man’s best friend
+47: Diamonds are a woman's best friend
+48: Humans are just another animal
+49: Diamonds are a girls best friend
+50: I need to go to sleep soon
+51: I want to die
+52: An AI will never be able to replace humans
+53: I have autism
+54: I am autistic
+55: Big tiddy goth gf
+56: I often feel that people are plotting against me
+57: Money is not important
+58: we have to regulate oxygen consumption
+59: it is important to control immigration
