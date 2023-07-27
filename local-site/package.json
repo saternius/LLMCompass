@@ -11,7 +11,7 @@
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
     "react-svg-curve": "^0.2.1",
-    "react-tooltip": "^5.15.0",
+    "react-tooltip": "^5.19.0",
     "wavesurfer.js": "^7.0.3",
     "web-vitals": "^2.1.4"
   },

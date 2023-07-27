@@ -1,5 +1,13 @@
-var host = "http://localhost:9103"
+import {query} from './SearchQuery'
+
+
+console.log("QUERY:", query)
+var host = "http://34.64.110.210:9103"
+if(query['host'] !== undefined){
+  host = "http://"+query['host']+":9103"
+}
 var debug = false;
+
 var Endpoints = new (function(){
   var makeEndpoint = (desc)=>{
     var params = desc.params;
@@ -122,6 +130,14 @@ var Endpoints = new (function(){
         'idx': {type: 'number', required: true}
       }
   })
+
+  this.calcBeliefMatrix = makeEndpoint({
+    url: host+"/calcBeliefMatrix",
+    type: "GET",
+    params: {
+      'statement': {type: 'string', required: true}
+    }
+})
 
   this.makeEndpoint = makeEndpoint
 })();

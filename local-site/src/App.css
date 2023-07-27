@@ -88,6 +88,7 @@
   font-family: system-ui;
   font-size: 24px;
   font-weight: bold;
+  margin-right: 10px;
 }
 
 .desc-box{
@@ -116,16 +117,37 @@
 }
 
 .matrix-cell{
-  width: 120px;
-  height: 90px;
-  background-color: red;
-  padding: 10px;
+  width: 86px;
+  height: 74px;
+  padding: 13px;
   text-align: center;
-  padding-top: 40px;
+  cursor: pointer;
+  padding-top: 18px;
+  color: #0a0a0a;
 }
 
-.matrix-grid{
+
+.matrix-container{
+  display: flex;
   margin: 30px;
+
+}
+
+.matrix{
+}
+
+.matrix-bar{
+  background: red;
+  width: 50px;
+  height: 200px;
+  margin: 0px 6px;
+  background-image: linear-gradient(rgb(0,55,114), white);
+}
+
+.matrix-scale{
+  font-size: 24px;
+  font-family: system-ui;
+  margin: 20px;
 }
 
 
@@ -136,9 +158,9 @@
 
 .scale-btn{
   padding: 5px 10px;
-  background: black;
+  background: white;
   margin: 5px 10px;
-  color: white;
+  color: black;
   cursor: pointer;
 }
 
@@ -159,6 +181,31 @@
   margin: 30px;
   margin-bottom: 100px;
 }
+
+.loading-gif{
+  width: 200px;
+  height: 200px;
+  margin: 50px 100px;
+}
+
+.calculations{
+  display: flex;
+}
+
+.rarity{
+  margin-top: 120px;
+  display: flex;
+}
+
+.tokens{
+  font-size: 28px;
+  cursor: default;
+  width: 680px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
 
 @media only screen and (max-width: 1080px){
   .description{
