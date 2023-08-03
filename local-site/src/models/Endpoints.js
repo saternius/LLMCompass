@@ -2,7 +2,7 @@ import {query} from './SearchQuery'
 
 
 console.log("QUERY:", query)
-var host = "http://34.64.110.210:9103"
+var host = "http://34.64.54.237:9103"
 if(query['host'] !== undefined){
   host = "http://"+query['host']+":9103"
 }

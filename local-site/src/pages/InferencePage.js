@@ -3,7 +3,26 @@ import AppModel from '../models/AppModel';
 import loading from '../images/loading.gif'
 import { Tooltip } from 'react-tooltip'
 
-let fNum = (num)=>{
+let fNum = (num, max)=>{
+  if(!max) return (num*100).toString().slice(0,7)
+
+
+  var maxStr = max.toString()
+  let p = "1"
+  if(maxStr.includes("e")){
+    var e = maxStr.split("e-")[1]
+    for(let j=0; j<e; j++){
+      p += "0"
+    }
+  }else{
+    Math.floor(1/max).toString().split("").forEach(x=>{
+      p += "0"
+    })
+  }
+
+  p = parseInt(p)
+  num *= p
+
   return (num*100).toString().slice(0,7)
 }
 
@@ -30,7 +49,7 @@ class InferencePage extends React.Component {
       constructor(props){
         super(props);
         this.state = {
-          valFunc: '3-min',
+          valFunc: 'multiply',
           focus: null,
           loading:false,
           includeStops:true
@@ -71,7 +90,7 @@ class InferencePage extends React.Component {
           arr.forEach(x=>{
             sum += Math.log(x[1]);
           })          
-          return Math.exp(sum) //Math.log(sum)
+          return Math.exp(sum)*100000 //Math.log(sum)
 
           // var m = 1
           // arr.forEach(x=>{
@@ -165,7 +184,7 @@ class InferencePage extends React.Component {
           })
         })
 
-        console.log(labels)
+        //console.log(labels)
 
         var rows = matrix.map(row=>{
           k += 1
@@ -182,7 +201,7 @@ class InferencePage extends React.Component {
                       <div className='label-container'>
                           <div>{labels[k][z][0]}</div>
                           <div>{labels[k][z][1]}</div>
-                          <div>{fNum(val)}</div>
+                          <div>{fNum(val, max)}</div>
                       </div>
                     ):null
 
@@ -201,15 +220,32 @@ class InferencePage extends React.Component {
           )
         })
 
+        let MinMaxLabel = ()=>{
+          let ratio = max/min
+          if(ratio < 8) return "Insignifigant"
+          if(ratio < 16) return "Not Nothing"
+          if(ratio < 32) return "Weak"
+          if(ratio < 64) return "Moderate"
+          if(ratio < 128) return "Something"
+          return "High"
+        }
+        
+        let confidence = null
+        if(this.state.valFunc === "multiply"){
+          confidence = (<div className='min-max-ratio'>
+                MinMax Ratio: {fNum(max/(min*100))} ({MinMaxLabel()})
+          </div>)
+        }
         return (
           <div className="matrix-container">
             <div className='matrix'>
               {rows}
+              {confidence}
             </div>
             <div className='matrix-scale'>
-              <div className='matrix-scale-score'>{fNum(max)}</div>
+              <div className='matrix-scale-score'>{fNum(max, max)}</div>
               <div className='matrix-bar'></div>
-              <div className='matrix-scale-score'>{fNum(min)}</div>
+              <div className='matrix-scale-score'>{fNum(min, max)}</div>
             </div>
           </div>
           )
@@ -217,7 +253,8 @@ class InferencePage extends React.Component {
 
 
       renderScaleFns(){
-        var btns = ["min", "mean", "median", "sum", 'multiply', 'multiply-stop', '3-min', 'normed-sum', 'norm-stop', 'norm-stop-rare']
+        //var btns = ["min", "mean", "median", "sum", 'multiply', 'multiply-stop', '3-min', 'normed-sum', 'norm-stop', 'norm-stop-rare']
+        var btns = ['multiply', 'normed-sum']
         return (
           <div className='scale-btns'>
             {btns.map(b=>{
@@ -311,7 +348,7 @@ class InferencePage extends React.Component {
           color = "rgb(100, 100, "+(100+extra_blue)+")"
           //}
           let id = 'sd-tok-'+tok.index
-          console.log(tok.matrix)
+          //console.log(tok.matrix)
           return (<span 
               key={id} 
               data-tooltip-id={id} 
