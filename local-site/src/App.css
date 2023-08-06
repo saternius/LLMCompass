@@ -124,8 +124,14 @@
   cursor: pointer;
   padding-top: 18px;
   color: #0a0a0a;
+  font-size: 12px;
 }
 
+
+.small-cell{
+  width: 20px;
+  height: 15px;
+}
 
 .matrix-container{
   display: flex;

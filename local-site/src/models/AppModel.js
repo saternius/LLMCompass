@@ -35,6 +35,7 @@ class Token{
         })
 
         this.sd = getStandardDeviation(this.flatVals)
+        this.minMaxRatio = this.maxValue/this.minValue
         //this.sd = this.maxValue/this.minValue
     }
 }

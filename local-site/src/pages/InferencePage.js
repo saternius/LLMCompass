@@ -99,6 +99,23 @@ class InferencePage extends React.Component {
           // return m
         }
 
+        if(this.state.valFunc === "multiply-bias-end"){
+          var sum = 0
+          var pos = 2.719
+          arr.forEach(x=>{
+            let w = 1 - (1/Math.log(pos))
+            sum += Math.log(x[1])*w;
+            pos += 1
+          })          
+          return Math.exp(sum)*100000 //Math.log(sum)
+
+          // var m = 1
+          // arr.forEach(x=>{
+          //   m *= x[1]
+          // })
+          // return m
+        }
+
         if(this.state.valFunc === "multiply-stop"){
           var val = 1
           
@@ -197,18 +214,25 @@ class InferencePage extends React.Component {
                   var c2 = "rgb(255,255,255)"
                   var c1 = "rgb(0,55,114)"
                   var color = interpolateColors(c2, c1, (val-min)/(max-min))
-                  var labEls = labels?(
+                  var labEls = null
+                  var extraClass = "small-cell"
+
+                  if(labels){
+                    labEls =(
                       <div className='label-container'>
                           <div>{labels[k][z][0]}</div>
                           <div>{labels[k][z][1]}</div>
                           <div>{fNum(val, max)}</div>
                       </div>
-                    ):null
+                    )
+                    extraClass = ""
+                  }
+
 
                   let x = k
                   let y = z
                   return (
-                        <div style={{background:color}} key={'matrix-'+z} className='matrix-cell' onClick={()=>{
+                        <div style={{background:color}} key={'matrix-'+z} className={'matrix-cell '+extraClass} onClick={()=>{
                           this.setState({focus:[x,y]})
                         }}>
                             {labEls}
@@ -254,7 +278,7 @@ class InferencePage extends React.Component {
 
       renderScaleFns(){
         //var btns = ["min", "mean", "median", "sum", 'multiply', 'multiply-stop', '3-min', 'normed-sum', 'norm-stop', 'norm-stop-rare']
-        var btns = ['multiply', 'normed-sum']
+        var btns = ['multiply', 'normed-sum', 'multiply-bias-end']
         return (
           <div className='scale-btns'>
             {btns.map(b=>{
@@ -281,7 +305,7 @@ class InferencePage extends React.Component {
             <div>{content.text}</div>
             {content.likeness.map(x=>{
               i += 1
-              console.log(x)
+              //console.log(x)
               return (
                 <div className='f-span' key={'f-word-'+i}>
                   <div className='f-token'>
@@ -344,7 +368,8 @@ class InferencePage extends React.Component {
         let tokens = AppModel.tokens.map(tok=>{
           var color = "rgb(100,100,100)"
           //if(tok.maxValue < CLAMP_VAL){
-          var extra_blue = 155 - 155*((tok.sd-minSD)/(maxSD-minSD))
+          var extra_blue = Math.min(8*Math.log(tok.minMaxRatio*tok.minMaxRatio), 155)
+          //console.log( Math.min(Math.log(tok.minMaxRatio*100), 155))
           color = "rgb(100, 100, "+(100+extra_blue)+")"
           //}
           let id = 'sd-tok-'+tok.index
@@ -367,7 +392,7 @@ class InferencePage extends React.Component {
 
         return (
           <div className='rarity'>
-            <div className='subtitle'>SD: </div>
+            <div className='subtitle'>Min/Max: </div>
             <div className='tokens'>
                 {tokens}
             </div>

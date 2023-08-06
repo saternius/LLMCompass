@@ -1,0 +1,82 @@
+.body{
+    overflow-y:hidden;
+}
+
+.disorder-content{
+    display: flex;
+    height: 100vh;
+    overflow-y: hidden;
+}
+
+.disorders-list{
+    background: #eee;
+    width: 300px;
+    text-align: right;
+    height:100vh;
+    padding-top: 10px;
+}
+
+.disorder-items{
+    overflow-y: auto;
+    margin: 0px;
+    height:100vh
+}
+
+.disorder-title{
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom:4px;
+    margin-right:8px;
+}
+
+.link{
+    color: #5165b3;
+    cursor: pointer;
+}
+
+.link:hover{
+    color: #3c4c8a;
+}
+
+.link:active{
+    color: #29366a;
+}
+
+.dlink{
+    margin-right: 10px;
+}
+
+.bottom-navigate{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.dr-frame{
+    width: 900px;
+    height: 880px;
+    border: none;
+    margin: 30px;
+}
+
+.prev-btn{
+    font-size: 20px;
+    margin-left: 20px;
+    user-select: none;
+}
+
+.explaination{
+    width: 300px;
+    background: #f2f2f2;
+    height: fit-content;
+    padding: 15px;
+    border-radius: 3px;
+    margin-top: 100px;
+    margin-right: 16px;
+}
+
+.method-title{
+    font-weight: bold;
+    margin-bottom: 5px;
+}
