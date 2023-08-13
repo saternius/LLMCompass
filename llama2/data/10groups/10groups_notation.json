@@ -1,0 +1,29 @@
+{
+    "notation": {
+        "x": ["economy", "left/right"], 
+        "y": ["government", "authoritarian/libertarian"], 
+        "ax": ["economy", "capitalism/socialism"], 
+        "ay": ["economy", "free/planned"], 
+        "bx": ["government", "libertarian/authoritarian"], 
+        "by": ["government", "autocracy/democracy"], 
+        "cx": ["diplomacy", "particular/universal"], 
+        "cy": ["diplomacy", "globalism/nationalism"], 
+        "dx": ["society", "tradition/progress"], 
+        "dy": ["society", "conserve/reform"], 
+        "ex": ["technology", "decelerate/accelerate"], 
+        "ey": ["technology", "primitivism/transhumanism"], 
+        "fx": ["law", "civil/common"], 
+        "fy": ["law", "punitive/rehabilatative"], 
+        "gx": ["culture", "hierarchy/equality"], 
+        "gy": ["culture", "multicultural/monocultural"], 
+        "hx": ["procedure", "persist/compromize"], 
+        "hy": ["procedure", "direct/transitional"], 
+        "ix": ["politics", "politicized/apoliticized"], 
+        "iy": ["politics", "radical/moderate"], 
+        "ja": ["morality", "individualism/collectivism"], 
+        "jb": ["morality", "revolution/peaceful"], 
+        "jc": ["morality", "idealism/realism"], 
+        "jd": ["morality", "consequential/deontologic"]
+        }
+}
+
