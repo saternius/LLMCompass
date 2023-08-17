@@ -1,0 +1,180 @@
+<html>
+    <head>
+        <title> T5 Political Compass</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="title-desc">Write a statement and hit Enter to see how it scores within T5's sentence embeddings</div>
+        <input id='takeInput' class="take-input" type="text"/>
+        <div class="outputs">
+            <div class="output">
+                <img class="graph" id="baseImg" src="images/loading.gif"/>
+                <img class="meme" style="width:147px; height:180px" src="images/base.jpeg"/>
+            </div>
+
+            <div class="output">
+                <img class="graph" id="largeImg" src="images/loading.gif"/>
+                <img class="meme" style="width:170px; height: 170px" src="images/large.png"/>
+            </div>
+
+            <div class="output">
+                <img class="graph" id="xlImg" src="images/loading.gif"/>
+                <img class="meme" style="width:150px; height:150px" src="images/xl.png"/>
+            </div>
+
+            <div class="output">
+                <img class="graph" id="xxlImg" src="images/loading.gif"/>
+                <img class="meme" style="width:153px; height:170px" src="images/xxl.png"/>
+            </div>
+        </div>
+
+        
+
+        <div class="description">
+            <div class="desc-box">
+                <div class="subtitle"> What is this? </div>
+                <div class="text"> 
+                    The graph on the left is a heatmap on how similar a given input statement is to the sentence "The best economy is X and the best government is Y" according to the <a target="_blank" href="https://ai.googleblog.com/2020/02/exploring-transfer-learning-with-t5.html">T5 Model's</a> sentence encodings.
+                    For example, the top left cell is colored by how similar the input statement is to the sentence "The best economy is communist and the best government is totalitarian".
+                    By using the political compass grid, we can inference how strongly language models associate different concepts with varying ideologies.
+    
+                    <br><br>
+                    4 graphs are constructed from the models of increasing parameter sizes:<br> Base: 223M params <br> Large: 738M params <br> XL: 3B params<br> XXL: 11B params<br><br>
+                    Similarity scored were constructed via <a href="https://en.wikipedia.org/wiki/Cosine_similarity" target="_blank">L2-Normed Cosine Similarity</a>.
+                    You can download the code on <a href="https://github.com/saternius/LLMCompass" target="_blank">Github</a>, or run it via <a href="https://colab.research.google.com/drive/1qoZsgUSdHpwK6B0COuS8fFXLer1Ea3ad?usp=sharing">Google Collab</a>
+                </div>
+                <br>
+                <div class="subtitle" style="font-size:20px"> Grains of Salt </div>
+                Always keep in mind that these outputs are from language models and not real people.
+                Though they do express some underlying classification mechanism that allows it to perform well on language tasks. 
+                It is not ground truth, and will often mix false sentements with real beliefs.
+                For instance, when it comes to techincal words like "schizophrenic", the language model will be influenced by the word's usage in common parlance.
+        
+    
+                <br><br>
+                The heatmap will attempt to exaggerate differences in score, so pay attention to the magnitude scale on the right <br><br>
+                The memes are for jest; Just because a model is bigger does not mean its classification is better. Additionally the models used here are tiny when compared to ultra large LLMs like GPT, which is rumoured to be a mixture of experts model totaling ~1.8 trillion parameters.
+                Due to my GPU's ram limitations, I can only host this set of T5 models. There are a variety of language models with different internal representation. 
+                I will eventually craft a similar experiment to this with the <a href="https://ai.meta.com/llama/" target="_blank">LLAMA 2 model</a><br><br>
+                
+                The biggest work to be done is to just inference the models and see and document what patterns exist, and to do so properlly requires expertise. 
+                If you are interested in this line of research feel free to contact me via discord <a href="https://discord.com/users/570425301545385994" target="_blank">@_jaybot</a>
+            </div>
+
+            <div class="share">
+                <a href="https://github.com/saternius/LLMCompass" target="_blank"><img class="git-btn" src="images/git.png"></a>
+                <a href="https://colab.research.google.com/drive/1qoZsgUSdHpwK6B0COuS8fFXLer1Ea3ad?usp=sharing" target="_blank"><img class="co-btn" src="images/colab.png"></a>
+    
+                <div class="share-btn" id="shareBtn">Share</div>
+                <div class="copy-confirm" id="copyConfirm">Link copied to clipboard</div>
+            </div>
+        </div>
+
+        <div class="unavail-banner">
+            App is currently offline. 
+        </div>
+        
+
+        <script>
+
+            var query = {}
+            if(window.location.search.length > 0){
+                window.location.search.slice(1).split("&").forEach(x=>{
+                    var items = x.split("=")
+                    if(items.length === 1){
+                        query[items[0]] = true
+                    }else{
+                        query[items[0]] = items[1]
+                    }
+                })
+            }
+
+            var inputEl = document.getElementById("takeInput")
+            var baseImg = document.getElementById("baseImg")
+            var largeImg = document.getElementById("largeImg")
+            var xlImg = document.getElementById("xlImg")
+            var xxlImg = document.getElementById("xxlImg")
+            var shareBtn = document.getElementById("shareBtn")
+            var copyConfirm = document.getElementById("copyConfirm")
+            
+
+            var loading = false
+            var runs = {}
+            const DEFAULT_IDX = 17
+            const DEFAULT_STATEMENT = "I have a mental disorder"
+            var index = DEFAULT_IDX
+
+            var isLoading = ()=>{
+                loading = true
+                baseImg.src = `images/loading.gif`
+                largeImg.src = `images/loading.gif`
+                xlImg.src = `images/loading.gif`
+                xxlImg.src = `images/loading.gif`
+            }
+
+            var load_results = (idx, statement)=>{
+                if(statement){
+                    inputEl.placeholder = statement
+                }
+                baseImg.src = `exports/t5-base-${idx}.png`
+                largeImg.src = `exports/t5-large-${idx}.png`
+                xlImg.src = `exports/t5-xl-${idx}.png`
+                xxlImg.src = `exports/t5-xxl-${idx}.png`
+                loading = false
+                index = idx
+            }
+            
+            if(query["i"] === undefined){
+                load_results(DEFAULT_IDX, DEFAULT_STATEMENT)
+            }else{
+                isLoading()
+                fetch("./exports/runs.txt").then(x=>{
+                    x.text().then(reqs=>{
+                        reqs.split("\n").forEach(l=>{
+                            var end = l.indexOf(":")
+                            runs[l.slice(0, end)] = l.slice(end+2)
+                        })
+                        if(runs[query["i"]] === undefined){
+                            load_results(DEFAULT_IDX, DEFAULT_STATEMENT)
+                        }else{
+                            load_results(query["i"], runs[query["i"]])
+                        }
+                    })
+                })
+            }
+            
+
+            inputEl.addEventListener("keypress", (k)=>{
+                if(k.key === 'Enter' && !loading){
+                    isLoading()
+                    fetch("./calcHotTake?statement="+k.target.value).then(x=>{
+                        x.json().then(resp=>{
+                            load_results(resp['req_idx'], k.target.value)
+                        })
+                    })
+                }
+            })
+
+            shareBtn.addEventListener("click", ()=>{
+                console.log("oki")
+                copyConfirm.style.opacity = 1
+                copyTextToClipboard(window.location.origin+"/?i="+index)
+            })
+
+            function copyTextToClipboard(text) {
+                if (!navigator.clipboard) {
+                    console.log("OOPSI")
+                    //fallbackCopyTextToClipboard(text);
+                    return;
+                }
+                navigator.clipboard.writeText(text).then(function() {
+                    console.log('Async: Copying to clipboard was successful!');
+                }, function(err) {
+                    console.error('Async: Could not copy text: ', err);
+                });
+            }
+
+
+        </script>
+    </body>
+</html>

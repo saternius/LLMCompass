@@ -2,7 +2,7 @@
     overflow-y:hidden;
 }
 
-.disorder-content{
+.labels-content{
     display: flex;
     height: 100vh;
     overflow-y: hidden;
@@ -14,19 +14,30 @@
     text-align: right;
     height:100vh;
     padding-top: 10px;
+    overflow: auto;
 }
 
-.disorder-items{
-    overflow-y: auto;
+.label-items{
+    overflow-y: hidden;
     margin: 0px;
-    height:100vh
+    height:100vh;
+    transition: all .2s ease 0s;
 }
 
-.disorder-title{
+.label-title{
     font-weight: bold;
     font-size: 18px;
     margin-bottom:4px;
     margin-right:8px;
+    display: flex;
+    justify-content: right;
+    cursor: pointer;
+    user-select: none;
+    color: #2f2f2f;
+}
+
+.label-title:hover{
+    color:black;
 }
 
 .link{
@@ -79,4 +90,48 @@
 .method-title{
     font-weight: bold;
     margin-bottom: 5px;
+}
+
+.results{
+    position: relative;
+}
+
+.cr-title{
+    color:black; 
+    font-weight: bold;
+    font-family: auto;
+}
+
+.color-refs{
+    position: absolute;
+    left: 410px;
+    top: 620px;
+}
+
+.cr-refs{
+    width: 365px;
+    display: flex;
+    height: 54px;
+    flex-wrap: wrap;
+    margin-top: 8px;
+}
+
+.cr-ref{
+    color: black;
+    padding: 4px 8px;
+    line-height: 17px;
+    border-radius: 12px;
+    font-size: 12px;
+    margin-right: 5px;
+    height: 16px;
+    margin-bottom: 4px;
+    cursor: help;
+}
+
+.unicode-toggle{
+    font-size:12px;
+    margin-top: 7px;
+    margin-right: 5px;
+    margin-left: 20px;
+    line-height:5px;
 }
