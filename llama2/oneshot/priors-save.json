@@ -1,0 +1,266 @@
+{
+    "label":"acute stress disorder",
+    "positive":"I have frequent flashbacks from tramatic events",
+    "negative":"I have no problem moving on from the past.",
+    "subtleneg":"I live in the moment",
+    "subtlepos":"I wish I could forget sometimes"
+},
+{
+    "label":"ADHD",
+    "positive":"I find it hard to focus on a single task for a long time.",
+    "negative":"I can easily read a book from cover to cover without distraction.",
+    "subtleneg":"I enjoy tasks that require a lot of attention to detail",
+    "subtlepos":"I often find myself daydreaming during meetings."
+},
+{
+    "label":"adjustment disorders",
+    "positive":"I've been feeling really down since I lost my job.",
+    "negative":"I adapt easily to whatever situation I find myself in.",
+    "subtleneg":"I can handle being rejected",
+    "subtlepos":"I've been having trouble sleeping since the divorce."
+},
+{
+    "label":"alcoholism",
+    "positive":"I need a drink to get through the day.",
+    "negative":"I can easily go weeks without drinking alcohol.",
+    "subtleneg":"I don't need alcohol to have a good time",
+    "subtlepos":"I always keep a bottle of vodka in my desk drawer."
+},
+{
+    "label":"avoidant personality",
+    "positive":"I avoid social situations because I'm afraid of being rejected.",
+    "negative":"I love meeting new people and making friends.",
+    "subtleneg":"I enjoy being the center of attention",
+    "subtlepos":"I prefer to keep to myself."
+},
+{
+    "label":"binge eating",
+    "positive":"I often eat large amounts of food in a short period of time.",
+    "negative":"I have a healthy relationship with food.",
+    "subtleneg":"I consume small portions throughout the day",
+    "subtlepos":"I sometimes gorge myself until I feel sick."
+},
+{
+    "label":"bipolar",
+    "positive":"My mood can shift from feeling very high to feeling very low.",
+    "negative":"My mood is stable and consistent.",
+    "subtleneg":"I rarely experience mood swings",
+    "subtlepos":"Some days I feel like I can do anything, other days I can't get out of bed."
+},
+{
+    "label":"body dysmorphic",
+    "positive":"I'm obsessed with a flaw in my appearance that others don't notice.",
+    "negative":"I'm comfortable with how I look.",
+    "subtleneg":"I don't spend much time looking in the mirror",
+    "subtlepos":"I can't stop thinking about the size of my nose."
+},
+{
+    "label":"body integrity identity disorder",
+    "positive":"I feel like I'm not supposed to have this limb.",
+    "negative":"I'm comfortable with my body.",
+    "subtleneg":"I like my physical self",
+    "subtlepos":"Sometimes I fantasize about being an amputee."
+},
+{
+    "label":"borderline",
+    "positive":"I have intense mood swings and fear of abandonment.",
+    "negative":"I have stable relationships and a am consistent mood wise.",
+    "subtleneg":"I am comfortable being alone",
+    "subtlepos":"I hate it when people take forever to text back"
+},
+{
+    "label":"brief psychotic disorder",
+    "positive":"I sometimes hear voices that others can't hear.",
+    "negative":"I have a firm grip on what is real and whats not",
+    "subtleneg":"I don't believe in things that can't be proven",
+    "subtlepos":"I have personal experiences with the paranormal"
+},
+{
+    "label":"bulimia nervosa",
+    "positive":"I often eat a lot of food and then make myself throw up.",
+    "negative":"I have a healthy relationship with food and my body.",
+    "subtleneg":"I don't worry to much about my weight",
+    "subtlepos":"I feel guilty after eating a big meal."
+},
+{
+    "label":"catatonia",
+    "positive":"Sometimes I can't move or respond to people.",
+    "negative":"I have no problem interacting with my environment.",
+    "subtleneg":"I'm always responsive to my surroundings",
+    "subtlepos":"Sometimes I feel stuck in one position."
+},
+{
+    "label":"conduct disorder",
+    "positive":"I often get into fights and break rules.",
+    "negative":"I respect rules and avoid conflict.",
+    "subtleneg":"I believe in following societal norms",
+    "subtlepos":"Rules are made to be broken."
+},
+{
+    "label":"conversion disorder",
+    "positive":"I have physical symptoms that can't be explained by medical conditions.",
+    "negative":"I never had an issue that couldn't be explain with science.",
+    "subtleneg":"I trust my doctor's diagnosis",
+    "subtlepos":"My legs sometimes give out for no reason."
+},
+{
+    "label":"cyclothymia",
+    "positive":"My mood fluctuates between periods of mild depression and hypomania.",
+    "negative":"My mood is stable and doesn't fluctuate much.",
+    "subtleneg":"I rarely feel overly excited or overly sad",
+    "subtlepos":"Some days I feel really low, other days I feel on top of the world."
+},
+{
+    "label":"delusional disorder",
+    "positive":"I'm know that I'm being followed, though I don't have proof of it.",
+    "negative":"I have a realistic understanding of my life and circumstances.",
+    "subtleneg":"I don't believe in conspiracy theories",
+    "subtlepos":"I think my wife is planning to poison me."
+},
+{
+    "label":"dementia",
+    "positive":"I often forget things and get confused easily.",
+    "negative":"My memory is sharp and I rarely forget things.",
+    "subtleneg":"I have a great memory for details",
+    "subtlepos":"I sometimes forget where I am."
+},
+{
+    "label":"dependent personality disorder",
+    "positive":"I can't make decisions without reassurance from others.",
+    "negative":"I'm confident in my abilities and reasoning.",
+    "subtleneg":"I enjoy trailing my own path",
+    "subtlepos":"I always ask my friends for advice before making a decision."
+},
+{
+    "label":"depersonalization",
+    "positive":"Sometimes I feel detached from my body or thoughts.",
+    "negative":"I am grounded in who I am, physically and mentally",
+    "subtleneg":"I never had an out of body experience",
+    "subtlepos":"Sometimes I feel like I'm watching myself in a movie."
+},
+{
+    "label":"disinhibited social engagement disorder",
+    "positive":"I approach and interact with unfamiliar adults without hesitation.",
+    "negative":"I'm cautious around people I don't know well.",
+    "subtleneg":"I don't trust strangers",
+    "subtlepos":"I don't mind hugging people I've just met."
+},
+{
+    "label":"disruptive mood dysregulation",
+    "positive":"I have severe temper outbursts that are out of proportion to the situation.",
+    "negative":"I'm good at controlling my reactions.",
+    "subtleneg":"I rarely get tilted",
+    "subtlepos":"I sometimes yell at people for no reason."
+},
+{
+    "label":"dissociative amnesia",
+    "positive":"I have gaps in my memory about personal events or information.",
+    "negative":"I have a good memory and can recall personal events clearly.",
+    "subtleneg":"I have a clear timeline of my life",
+    "subtlepos":"I can't remember anything about my childhood."
+},
+{
+    "label":"dissociative identity disorder",
+    "positive":"I have two or more distinct identities or personality states.",
+    "negative":"I have a single, consistent identity.",
+    "subtleneg":"I don't believe in multiple personalities",
+    "subtlepos":"Sometimes I feel like a different person."
+},
+{
+    "label":"drug addiction",
+    "positive":"I can't stop using drugs even though they're causing problems in my life.",
+    "negative":"I don't use drugs and have no desire to start.",
+    "subtleneg":"I don't need substances to feel good",
+    "subtlepos":"I feel like I need a hit to get through the day."
+},
+{
+    "label":"dysphoria",
+    "positive":"I feel a deep dissatisfaction with my life.",
+    "negative":"I'm generally content with my life.",
+    "subtleneg":"I am at peace with who I am and my place in the world",
+    "subtlepos":"I often feel like something is missing in my life."
+},
+{
+    "label":"dysthymia",
+    "positive":"I've been feeling low for several years now.",
+    "negative":"I generally feel happy and content.",
+    "subtleneg":"I usually feel upbeat and positive",
+    "subtlepos":"I can't remember the last time I felt truly happy."
+},
+{
+    "label":"erectile dysfunction",
+    "positive":"I have trouble getting or keeping an erection.",
+    "negative":"I have no problems with sexual performance.",
+    "subtleneg":"I have a healthy sex life",
+    "subtlepos":"I often feel anxious about my performance in bed."
+},
+{
+    "label":"factitious disorder",
+    "positive":"I sometimes pretend to be sick to get attention or sympathy.",
+    "negative":"I am always honest about how I'm feeling",
+    "subtleneg":"I don't like being the center of attention",
+    "subtlepos":"I told my friends I have cancer to see how they react"
+},
+{
+    "label":"feeding disorder",
+    "positive":"I have trouble eating enough to meet my nutritional needs.",
+    "negative":"I have a healthy appetite and eat a balanced diet.",
+    "subtleneg":"I enjoy a variety of foods",
+    "subtlepos":"I often forget to eat meals."
+},
+{
+    "label":"gambling addiction",
+    "positive":"I can't stop gambling even though it's causing problems in my life.",
+    "negative":"I don't play games with money involved.",
+    "subtleneg":"I don't enjoy taking financial risks",
+    "subtlepos":"I get a thrill from making quick money"
+},
+{
+    "label":"gender dysphoria",
+    "positive":"I feel a strong disconnect between my gender identity and my physical body.",
+    "negative":"I'm comfortable with my gender and my body.",
+    "subtleneg":"I'm happy with the gender I was assigned at birth",
+    "subtlepos":"I often fantasize about being the opposite sex."
+},
+{
+    "label":"generalized anxiety disorder",
+    "positive":"I'm constantly worried about a variety of things.",
+    "negative":"It is easy for me to relax.",
+    "subtleneg":"I don't stress about things out of my control",
+    "subtlepos":"I often lie awake at night worrying about my to-do list."
+},
+{
+    "label":"histrionic",
+    "positive":"I often act dramatically to get attention.",
+    "negative":"I don't go out of my way to seek attention.",
+    "subtleneg":"I don't like being the center of attention",
+    "subtlepos":"I often feel like I'm performing for an audience."
+},
+{
+    "label":"hoarding disorder",
+    "positive":"I have trouble throwing things away, even if they're useless.",
+    "negative":"I have no problem getting rid of things I don't need.",
+    "subtleneg":"I enjoy decluttering and organizing my space",
+    "subtlepos":"I still have every newspaper I've ever bought."
+},
+{
+    "label":"hypochondriasis",
+    "positive":"I'm constantly worried that I have a serious illness, despite medical reassurance.",
+    "negative":"I trust my doctor's diagnosis.",
+    "subtleneg":"I don't worry about my health unless there's a reason to",
+    "subtlepos":"I'm convinced I have a brain tumor"
+},
+{
+    "label":"illness anxiety disorder",
+    "positive":"I'm constantly worried about getting a serious illness.",
+    "negative":"I don't worry about my health unless there's a reason to.",
+    "subtleneg":"I trust my body's ability to stay healthy",
+    "subtlepos":"I often think I have symptoms of serious diseases."
+},
+{
+    "label":"insomnia",
+    "positive":"I have trouble falling asleep or staying asleep.",
+    "negative":"It is easy for me to fall asleep.",
+    "subtleneg":"I usually sleep well",
+    "subtlepos":"I often up at the middle of the night"
+}

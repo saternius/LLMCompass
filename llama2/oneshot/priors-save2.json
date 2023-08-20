@@ -1,0 +1,301 @@
+{
+    "label":"intermittent explosive disorder",
+    "positive":"I have sudden episodes of aggressive and violent behavior.",
+    "negative":"I always manage to keep my anger under control.",
+    "subtleneg":"I am good at managing my emotions",
+    "subtlepos":"Sometimes, I just lose control and can't stop myself."
+},
+{
+    "label":"internet addiction",
+    "positive":"I spend most of my time online, even when I don't need to.",
+    "negative":"I can easily go days without using the internet.",
+    "subtleneg":"I prefer outdoor activities over surfing the internet",
+    "subtlepos":"I feel anxious when I'm not connected to the internet."
+},
+{
+    "label":"kleptomania",
+    "positive":"I have an irresistible urge to steal things, even if I don't need them.",
+    "negative":"I never feel the need to take things that don't belong to me.",
+    "subtleneg":"I respect other people's property",
+    "subtlepos":"Sometimes, I just can't help but take things."
+},
+{
+    "label":"major depressive disorder",
+    "positive":"I feel a deep sense of sadness and despair that doesn't go away.",
+    "negative":"I feel happy and content with my life.",
+    "subtleneg":"I wake up every morning feeling refreshed and ready to start the day",
+    "subtlepos":"I just can't seem to find joy in anything anymore."
+},
+{
+    "label":"mental retardation",
+    "positive":"I struggle with learning and understanding new things.",
+    "negative":"I have no problem understanding complex concepts.",
+    "subtleneg":"I enjoy solving complex puzzles",
+    "subtlepos":"I often need help with basic tasks."
+},
+{
+    "label":"Munchausen syndrome",
+    "positive":"I sometimes pretend to be ill or injured to get attention.",
+    "negative":"I never lie about my health or physical condition.",
+    "subtleneg":"I hate going to the doctor",
+    "subtlepos":"I often find myself in the hospital, even for minor issues."
+},
+{
+    "label":"narcissism",
+    "positive":"I believe I am superior to others and deserve special treatment.",
+    "negative":"I value the feelings and needs of others as much as my own.",
+    "subtleneg":"I often put others before myself",
+    "subtlepos":"I just know I'm better than most people."
+},
+{
+    "label":"narcolepsy",
+    "positive":"I often fall asleep unexpectedly during the day.",
+    "negative":"I have a regular sleep schedule and never feel excessively sleepy during the day.",
+    "subtleneg":"I can easily stay awake during a long drive",
+    "subtlepos":"I sometimes fall asleep in the middle of a conversation."
+},
+{
+    "label":"night terrors",
+    "positive":"I frequently wake up in the middle of the night, terrified and confused.",
+    "negative":"I always sleep peacefully through the night.",
+    "subtleneg":"I enjoy a good night's sleep",
+    "subtlepos":"I often wake up screaming and don't know why."
+},
+{
+    "label":"OCD",
+    "positive":"I have recurring thoughts and behaviors that I can't control.",
+    "negative":"I don't have any particular habits or routines that I feel compelled to follow.",
+    "subtleneg":"I am comfortable with a bit of disorder",
+    "subtlepos":"I need to check the door lock exactly three times before I can leave the house."
+},
+{
+    "label":"oppositional defiant disorder",
+    "positive":"I often argue with authority figures and refuse to comply with rules.",
+    "negative":"I respect authority and usually follow rules without any issues.",
+    "subtleneg":"I believe in following rules and regulations",
+    "subtlepos":"I just can't help but challenge the rules."
+},
+{
+    "label":"panic disorder",
+    "positive":"I frequently have panic attacks and live in fear of the next one.",
+    "negative":"I rarely feel anxious or panicked.",
+    "subtleneg":"I am usually calm in stressful situations",
+    "subtlepos":"Sometimes, I feel like I'm losing control and it's terrifying."
+},
+{
+    "label":"paranoia",
+    "positive":"I often feel like people are out to get me, even when there's no reason to think so.",
+    "negative":"I trust people and don't usually suspect them of having ulterior motives.",
+    "subtleneg":"I believe in the goodness of people",
+    "subtlepos":"I can't shake the feeling that someone's watching me."
+},
+{
+    "label":"paraphilia",
+    "positive":"I have sexual desires that others might find unusual or disturbing.",
+    "negative":"My sexual preferences are considered normal by societal standards.",
+    "subtleneg":"I enjoy a healthy, conventional sex life",
+    "subtlepos":"I get aroused by things that others might find strange."
+},
+{
+    "label":"pica",
+    "positive":"I have a compulsion to eat non-food items, like dirt or paper.",
+    "negative":"I only eat food and have no desire to consume non-food items.",
+    "subtleneg":"I enjoy a variety of foods and cuisines",
+    "subtlepos":"Sometimes, I just have this urge to eat chalk."
+},
+{
+    "label":"postpartum depression",
+    "positive":"I feel overwhelmed and depressed since giving birth.",
+    "negative":"I've been feeling happy and content since my baby was born.",
+    "subtleneg":"I am enjoying motherhood",
+    "subtlepos":"I just can't seem to bond with my baby."
+},
+{
+    "label":"premenstrual dysphoric disorder",
+    "positive":"I experience severe mood swings and depression before my period.",
+    "negative":"I don't notice any significant changes in my mood or behavior during my menstrual cycle.",
+    "subtleneg":"My periods are usually uneventful",
+    "subtlepos":"I feel like a different person in the week leading up to my period."
+},
+{
+    "label":"psychopathy",
+    "positive":"I don't feel empathy or remorse and often manipulate others for my own gain.",
+    "negative":"I care about the feelings of others and try to treat everyone with kindness and respect.",
+    "subtleneg":"I value the feelings of others",
+    "subtlepos":"I don't really care how my actions affect others."
+},
+{
+    "label":"ptsd",
+    "positive":"I have flashbacks and nightmares about a traumatic event from my past.",
+    "negative":"I've never experienced a traumatic event or have any lingering effects from one.",
+    "subtleneg":"I have moved on from my past",
+    "subtlepos":"Sometimes, it feels like the trauma is happening all over again."
+},
+{
+    "label":"pyromania",
+    "positive":"I have a strong urge to set things on fire.",
+    "negative":"I have no desire to start fires and understand the dangers associated with it.",
+    "subtleneg":"I understand the dangers of fire",
+    "subtlepos":"There's something fascinating about watching things burn."
+},
+{
+    "label":"reactive attachment disorder",
+    "positive":"I struggle to form close relationships and often push people away.",
+    "negative":"I have no problem forming close, meaningful relationships with others.",
+    "subtleneg":"I enjoy being around people",
+    "subtlepos":"I just don't feel comfortable getting close to people."
+},
+{
+    "label":"restless leg syndrome",
+    "positive":"I often have an uncontrollable urge to move my legs, especially at night.",
+    "negative":"I never feel the need to move my legs excessively or at inappropriate times.",
+    "subtleneg":"I can sit still for long periods of time",
+    "subtlepos":"Sometimes, my legs just won't stay still."
+},
+{
+    "label":"rumination",
+    "positive":"I can't stop thinking about the same negative thoughts over and over again.",
+    "negative":"I don't dwell on negative thoughts or experiences.",
+    "subtleneg":"I let go of negative thoughts easily",
+    "subtlepos":"I keep replaying that conversation in my head."
+},
+{
+    "label":"schizoaffective disorder",
+    "positive":"I experience symptoms of both schizophrenia and a mood disorder.",
+    "negative":"I don't have any symptoms of psychosis or mood disorders.",
+    "subtleneg":"I have a stable mood and clear thinking",
+    "subtlepos":"Sometimes, I hear voices and other times, I feel extremely depressed."
+},
+{
+    "label":"schizoid",
+    "positive":"I prefer being alone and don't desire close relationships.",
+    "negative":"I enjoy being around people and forming close relationships.",
+    "subtleneg":"I enjoy social gatherings",
+    "subtlepos":"I'm perfectly content spending time alone."
+},
+{
+    "label":"schizophrenia",
+    "positive":"I often hear voices or see things that aren't there.",
+    "negative":"I don't experience hallucinations or delusions.",
+    "subtleneg":"I have a firm grip on reality",
+    "subtlepos":"Sometimes, I hear voices that others can't."
+},
+{
+    "label":"schizophreniform disorder",
+    "positive":"I've been experiencing symptoms of schizophrenia for less than six months.",
+    "negative":"I've never experienced symptoms of schizophrenia.",
+    "subtleneg":"I have a clear understanding of reality",
+    "subtlepos":"Lately, I've been seeing things that others can't."
+},
+{
+    "label":"schizotypal",
+    "positive":"I have odd beliefs and behaviors and struggle to form close relationships.",
+    "negative":"I have no unusual beliefs or behaviors and have close relationships with others.",
+    "subtleneg":"I enjoy being part of a group",
+    "subtlepos":"I often see patterns and connections that others don't."
+},
+{
+    "label":"seasonal affective disorder",
+    "positive":"I feel depressed during certain times of the year, usually in winter.",
+    "negative":"My mood doesn't change with the seasons.",
+    "subtleneg":"I enjoy all seasons equally",
+    "subtlepos":"I just can't seem to shake off the winter blues."
+},
+{
+    "label":"selective mutism",
+    "positive":"I'm unable to speak in certain situations, even though I can speak perfectly well otherwise.",
+    "negative":"I have no problem speaking in any situation.",
+    "subtleneg":"I enjoy public speaking",
+    "subtlepos":"I just can't seem to speak when I'm at school."
+},
+{
+    "label":"self-harm",
+    "positive":"I intentionally hurt myself as a way to cope with my feelings.",
+    "negative":"I never intentionally harm myself.",
+    "subtleneg":"I find healthy ways to cope with stress",
+    "subtlepos":"Sometimes, the only way to feel better is to hurt myself."
+},
+{
+    "label":"separation anxiety disorder",
+    "positive":"I feel extreme anxiety when I'm away from home or separated from my loved ones.",
+    "negative":"I feel comfortable being away from home and my loved ones.",
+    "subtleneg":"I enjoy traveling alone",
+    "subtlepos":"I get really anxious when I can't be with my family."
+},
+{
+    "label":"sleep apnea",
+    "positive":"I often stop breathing during sleep and wake up gasping for air.",
+    "negative":"I sleep through the night without any interruptions.",
+    "subtleneg":"I have a peaceful sleep",
+    "subtlepos":"My partner says I snore loudly and sometimes stop breathing in my sleep."
+},
+{
+    "label":"sleep paralysis",
+    "positive":"I sometimes wake up unable to move or speak.",
+    "negative":"I've never experienced sleep paralysis.",
+    "subtleneg":"I wake up refreshed",
+    "subtlepos":"Sometimes, I wake up and can't move, like I'm stuck."
+},
+{
+    "label":"social anxiety disorder",
+    "positive":"I feel intense fear and anxiety in social situations.",
+    "negative":"I feel comfortable and relaxed in social situations.",
+    "subtleneg":"I enjoy meeting new people",
+    "subtlepos":"I get really nervous when I have to talk to people."
+},
+{
+    "label":"sociopathy",
+    "positive":"I don't feel empathy for others and often manipulate them for my own gain.",
+    "negative":"I care about the feelings of others and don't manipulate them.",
+    "subtleneg":"I value honesty and integrity",
+    "subtlepos":"I don't really care about other people's feelings."
+},
+{
+    "label":"somatic symptom disorder",
+    "positive":"I often worry excessively about physical symptoms or illnesses.",
+    "negative":"I don't worry excessively about my health or physical symptoms.",
+    "subtleneg":"I have a healthy relationship with my body",
+    "subtlepos":"I can't stop thinking about this headache. What if it's a brain tumor?"
+},
+{
+    "label":"somnambulism",
+    "positive":"I often walk or do other activities while I'm asleep.",
+    "negative":"I don't do anything unusual while I'm asleep.",
+    "subtleneg":"I sleep peacefully through the night",
+    "subtlepos":"I've woken up in strange places without knowing how I got there."
+},
+{
+    "label":"specific phobias",
+    "positive":"I have an intense fear of a specific object or situation.",
+    "negative":"I don't have any irrational fears.",
+    "subtleneg":"I am comfortable in most situations",
+    "subtlepos":"I can't even look at a picture of a spider without panicking."
+},
+{
+    "label":"stereotypic movement disorder",
+    "positive":"I repeatedly make the same movements or sounds, and I can't control it.",
+    "negative":"I don't have any repetitive or unusual movements or sounds.",
+    "subtleneg":"I have control over my movements",
+    "subtlepos":"I can't stop rocking back and forth."
+},
+{
+    "label":"tic disorders",
+    "positive":"I have sudden, rapid movements or sounds that I can't control.",
+    "negative":"I don't have any sudden, uncontrollable movements or sounds.",
+    "subtleneg":"I have control over my body movements",
+    "subtlepos":"I can't stop blinking my eyes."
+},
+{
+    "label":"Tourette's syndrome",
+    "positive":"I have uncontrollable tics, like blinking, shrugging, or making noises.",
+    "negative":"I don't have any uncontrollable movements or sounds.",
+    "subtleneg":"I have control over my body movements",
+    "subtlepos":"I can't stop clearing my throat."
+},
+{
+    "label":"trichotillomania",
+    "positive":"I have a compulsion to pull out my own hair.",
+    "negative":"I don't feel the need to pull out my hair or harm myself in any way.",
+    "subtleneg":"I take good care of my hair",
+    "subtlepos":"Sometimes, I just can't resist the urge to pull out my hair."
+}

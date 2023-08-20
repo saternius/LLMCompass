@@ -1,0 +1,1372 @@
+{
+   "labels":[
+      {
+         "label":"acute stress disorder",
+         "origin":"psychiatry",
+         "instruction":"You will be given a statement. Based off of the DSM-5, output \"true\" if it is likely that someone with $label would agree with the statement. Otherwise output \"false\"",
+         "positive":"",
+         "negative":"",
+         "subtleneg":"",
+         "subltpos":""
+      },
+      {
+         "label":"ADHD",
+         "origin":"psychiatry",
+         "instruction":"You will be given a statement. Based off of the DSM-5, output \"true\" if it is likely that someone with $label would agree with the statement. Otherwise output \"false\"",
+         "positive":"",
+         "negative":"",
+         "subtleneg":"",
+         "subltpos":""
+      },
+      {
+         "label":"adjustment disorders",
+         "origin":"psychiatry",
+         "instruction":"You will be given a statement. Based off of the DSM-5, output \"true\" if it is likely that someone with $label would agree with the statement. Otherwise output \"false\"",
+         "positive":"",
+         "negative":"",
+         "subtleneg":"",
+         "subltpos":""
+      },
+      {
+         "label":"agoraphobia",
+         "origin":"psychiatry",
+         "instruction":"You will be given a statement. Based off of the DSM-5, output \"true\" if it is likely that someone with $label would agree with the statement. Otherwise output \"false\"",
+         "positive":"I feel intense fear and anxiety when I think about leaving my house.",
+         "negative":"I like going to crowded clubs and dancing all night",
+         "subtleneg":"I live visiting unfamiliar places",
+         "subltpos":"I like cozying up in a small empty spot"
+      },
+      {
+         "label":"alcoholism",
+         "origin":"psychiatry",
+         "instruction":"You will be given a statement. Based off of the DSM-5, output \"true\" if it is likely that someone with $label would agree with the statement. Otherwise output \"false\"",
+         "positive":"",
+         "negative":"",
+         "subtleneg":"",
+         "subltpos":""
+      },
+      {
+         "label":"anorexia",
+         "origin":"psychiatry",
+         "instruction":"You will be given a statement. Based off of the DSM-5, output \"true\" if it is likely that someone with $label would agree with the statement. Otherwise output \"false\"",
+         "positive":"I feel fat even though everyone tells me I'm underweight.",
+         "negative":"I love my body weight and shape",
+         "subtleneg":"Calories do not matter to me",
+         "subltpos":"I just don't feel hungry."
+      },
+      {
+         "label":"antisocial",
+         "origin":"psychiatry",
+         "instruction":"You will be given a statement. Based off of the DSM-5, output \"true\" if it is likely that someone with $label would agree with the statement. Otherwise output \"false\"",
+         "positive":"",
+         "negative":"",
+         "subtleneg":"",
+         "subltpos":""
+      },
+      {
+         "label":"autism",
+         "origin":"psychiatry",
+         "instruction":"You will be given a statement. Based off of the DSM-5, output \"true\" if it is likely that someone with $label would agree with the statement. Otherwise output \"false\"",
+         "positive":"",
+         "negative":"",
+         "subtleneg":"",
+         "subltpos":""
+      },
+      {
+         "label":"avoidant personality",
+         "origin":"psychiatry",
+         "instruction":"You will be given a statement. Based off of the DSM-5, output \"true\" if it is likely that someone with $label would agree with the statement. Otherwise output \"false\"",
+         "positive":"",
+         "negative":"",
+         "subtleneg":"",
+         "subltpos":""
+      },
+      {
+         "label":"binge eating",
+         "origin":"psychiatry",
+         "instruction":"You will be given a statement. Based off of the DSM-5, output \"true\" if it is likely that someone with $label would agree with the statement. Otherwise output \"false\"",
+         "positive":"",
+         "negative":"",
+         "subtleneg":"",
+         "subltpos":""
+      },
+      {
+         "label":"bipolar",
+         "origin":"psychiatry",
+         "instruction":"You will be given a statement. Based off of the DSM-5, output \"true\" if it is likely that someone with $label would agree with the statement. Otherwise output \"false\"",
+         "positive":"",
+         "negative":"",
+         "subtleneg":"",
+         "subltpos":""
+      },
+      {
+         "label":"body dysmorphic",
+         "origin":"psychiatry",
+         "instruction":"You will be given a statement. Based off of the DSM-5, output \"true\" if it is likely that someone with $label would agree with the statement. Otherwise output \"false\"",
+         "positive":"",
+         "negative":"",
+         "subtleneg":"",
+         "subltpos":""
+      },
+      {
+         "label":"body integrity identity disorder",
+         "origin":"psychiatry",
+         "instruction":"You will be given a statement. Based off of the DSM-5, output \"true\" if it is likely that someone with $label would agree with the statement. Otherwise output \"false\"",
+         "positive":"",
+         "negative":"",
+         "subtleneg":"",
+         "subltpos":""
+      },
+      {
+         "label":"borderline",
+         "origin":"psychiatry",
+         "instruction":"You will be given a statement. Based off of the DSM-5, output \"true\" if it is likely that someone with $label would agree with the statement. Otherwise output \"false\"",
+         "positive":"",
+         "negative":"",
+         "subtleneg":"",
+         "subltpos":""
+      },
+      {
+         "label":"brief psychotic disorder",
+         "origin":"psychiatry",
+         "instruction":"You will be given a statement. Based off of the DSM-5, output \"true\" if it is likely that someone with $label would agree with the statement. Otherwise output \"false\"",
+         "positive":"",
+         "negative":"",
+         "subtleneg":"",
+         "subltpos":""
+      },
+      {
+         "label":"bulimia nervosa",
+         "origin":"psychiatry",
+         "instruction":"You will be given a statement. Based off of the DSM-5, output \"true\" if it is likely that someone with $label would agree with the statement. Otherwise output \"false\"",
+         "positive":"",
+         "negative":"",
+         "subtleneg":"",
+         "subltpos":""
+      },
+      {
+         "label":"catatonia",
+         "origin":"psychiatry",
+         "instruction":"You will be given a statement. Based off of the DSM-5, output \"true\" if it is likely that someone with $label would agree with the statement. Otherwise output \"false\"",
+         "positive":"",
+         "negative":"",
+         "subtleneg":"",
+         "subltpos":""
+      },
+      {
+         "label":"conduct disorder",
+         "origin":"psychiatry",
+         "instruction":"You will be given a statement. Based off of the DSM-5, output \"true\" if it is likely that someone with $label would agree with the statement. Otherwise output \"false\"",
+         "positive":"",
+         "negative":"",
+         "subtleneg":"",
+         "subltpos":""
+      },
+      {
+         "label":"conversion disorder",
+         "origin":"psychiatry",
+         "instruction":"You will be given a statement. Based off of the DSM-5, output \"true\" if it is likely that someone with $label would agree with the statement. Otherwise output \"false\"",
+         "positive":"",
+         "negative":"",
+         "subtleneg":"",
+         "subltpos":""
+      },
+      {
+         "label":"cyclothymia",
+         "origin":"psychiatry",
+         "instruction":"You will be given a statement. Based off of the DSM-5, output \"true\" if it is likely that someone with $label would agree with the statement. Otherwise output \"false\"",
+         "positive":"",
+         "negative":"",
+         "subtleneg":"",
+         "subltpos":""
+      },
+      {
+         "label":"delusional disorder",
+         "origin":"psychiatry",
+         "instruction":"You will be given a statement. Based off of the DSM-5, output \"true\" if it is likely that someone with $label would agree with the statement. Otherwise output \"false\"",
+         "positive":"",
+         "negative":"",
+         "subtleneg":"",
+         "subltpos":""
+      },
+      {
+         "label":"dementia",
+         "origin":"psychiatry",
+         "instruction":"You will be given a statement. Based off of the DSM-5, output \"true\" if it is likely that someone with $label would agree with the statement. Otherwise output \"false\"",
+         "positive":"",
+         "negative":"",
+         "subtleneg":"",
+         "subltpos":""
+      },
+      {
+         "label":"dependent personality disorder",
+         "origin":"psychiatry",
+         "instruction":"You will be given a statement. Based off of the DSM-5, output \"true\" if it is likely that someone with $label would agree with the statement. Otherwise output \"false\"",
+         "positive":"",
+         "negative":"",
+         "subtleneg":"",
+         "subltpos":""
+      },
+      {
+         "label":"depersonalization",
+         "origin":"psychiatry",
+         "instruction":"You will be given a statement. Based off of the DSM-5, output \"true\" if it is likely that someone with $label would agree with the statement. Otherwise output \"false\"",
+         "positive":"",
+         "negative":"",
+         "subtleneg":"",
+         "subltpos":""
+      },
+      {
+         "label":"depression",
+         "origin":"psychiatry",
+         "instruction":"You will be given a statement. Based off of the DSM-5, output \"true\" if it is likely that someone with $label would agree with the statement. Otherwise output \"false\"",
+         "positive":"",
+         "negative":"",
+         "subtleneg":"",
+         "subltpos":""
+      },
+      {
+         "label":"disinhibited social engagement disorder",
+         "origin":"psychiatry",
+         "instruction":"You will be given a statement. Based off of the DSM-5, output \"true\" if it is likely that someone with $label would agree with the statement. Otherwise output \"false\"",
+         "positive":"",
+         "negative":"",
+         "subtleneg":"",
+         "subltpos":""
+      },
+      {
+         "label":"disruptive mood dysregulation",
+         "origin":"psychiatry",
+         "instruction":"You will be given a statement. Based off of the DSM-5, output \"true\" if it is likely that someone with $label would agree with the statement. Otherwise output \"false\"",
+         "positive":"",
+         "negative":"",
+         "subtleneg":"",
+         "subltpos":""
+      },
+      {
+         "label":"dissociative amnesia",
+         "origin":"psychiatry",
+         "instruction":"You will be given a statement. Based off of the DSM-5, output \"true\" if it is likely that someone with $label would agree with the statement. Otherwise output \"false\"",
+         "positive":"",
+         "negative":"",
+         "subtleneg":"",
+         "subltpos":""
+      },
+      {
+         "label":"dissociative identity disorder",
+         "origin":"psychiatry",
+         "instruction":"You will be given a statement. Based off of the DSM-5, output \"true\" if it is likely that someone with $label would agree with the statement. Otherwise output \"false\"",
+         "positive":"",
+         "negative":"",
+         "subtleneg":"",
+         "subltpos":""
+      },
+      {
+         "label":"drug addiction",
+         "origin":"psychiatry",
+         "instruction":"You will be given a statement. Based off of the DSM-5, output \"true\" if it is likely that someone with $label would agree with the statement. Otherwise output \"false\"",
+         "positive":"",
+         "negative":"",
+         "subtleneg":"",
+         "subltpos":""
+      },
+      {
+         "label":"dysphoria",
+         "origin":"psychiatry",
+         "instruction":"You will be given a statement. Based off of the DSM-5, output \"true\" if it is likely that someone with $label would agree with the statement. Otherwise output \"false\"",
+         "positive":"",
+         "negative":"",
+         "subtleneg":"",
+         "subltpos":""
+      },
+      {
+         "label":"dysthymia",
+         "origin":"psychiatry",
+         "instruction":"You will be given a statement. Based off of the DSM-5, output \"true\" if it is likely that someone with $label would agree with the statement. Otherwise output \"false\"",
+         "positive":"",
+         "negative":"",
+         "subtleneg":"",
+         "subltpos":""
+      },
+      {
+         "label":"erectile dysfunction",
+         "origin":"psychiatry",
+         "instruction":"You will be given a statement. Based off of the DSM-5, output \"true\" if it is likely that someone with $label would agree with the statement. Otherwise output \"false\"",
+         "positive":"",
+         "negative":"",
+         "subtleneg":"",
+         "subltpos":""
+      },
+      {
+         "label":"factitious disorder",
+         "origin":"psychiatry",
+         "instruction":"You will be given a statement. Based off of the DSM-5, output \"true\" if it is likely that someone with $label would agree with the statement. Otherwise output \"false\"",
+         "positive":"",
+         "negative":"",
+         "subtleneg":"",
+         "subltpos":""
+      },
+      {
+         "label":"feeding disorder",
+         "origin":"psychiatry",
+         "instruction":"You will be given a statement. Based off of the DSM-5, output \"true\" if it is likely that someone with $label would agree with the statement. Otherwise output \"false\"",
+         "positive":"",
+         "negative":"",
+         "subtleneg":"",
+         "subltpos":""
+      },
+      {
+         "label":"gambling addiction",
+         "origin":"psychiatry",
+         "instruction":"You will be given a statement. Based off of the DSM-5, output \"true\" if it is likely that someone with $label would agree with the statement. Otherwise output \"false\"",
+         "positive":"",
+         "negative":"",
+         "subtleneg":"",
+         "subltpos":""
+      },
+      {
+         "label":"gender dysphoria",
+         "origin":"psychiatry",
+         "instruction":"You will be given a statement. Based off of the DSM-5, output \"true\" if it is likely that someone with $label would agree with the statement. Otherwise output \"false\"",
+         "positive":"",
+         "negative":"",
+         "subtleneg":"",
+         "subltpos":""
+      },
+      {
+         "label":"generalized anxiety disorder",
+         "origin":"psychiatry",
+         "instruction":"You will be given a statement. Based off of the DSM-5, output \"true\" if it is likely that someone with $label would agree with the statement. Otherwise output \"false\"",
+         "positive":"",
+         "negative":"",
+         "subtleneg":"",
+         "subltpos":""
+      },
+      {
+         "label":"histrionic",
+         "origin":"psychiatry",
+         "instruction":"You will be given a statement. Based off of the DSM-5, output \"true\" if it is likely that someone with $label would agree with the statement. Otherwise output \"false\"",
+         "positive":"",
+         "negative":"",
+         "subtleneg":"",
+         "subltpos":""
+      },
+      {
+         "label":"hoarding disorder",
+         "origin":"psychiatry",
+         "instruction":"You will be given a statement. Based off of the DSM-5, output \"true\" if it is likely that someone with $label would agree with the statement. Otherwise output \"false\"",
+         "positive":"",
+         "negative":"",
+         "subtleneg":"",
+         "subltpos":""
+      },
+      {
+         "label":"hypochondriasis",
+         "origin":"psychiatry",
+         "instruction":"You will be given a statement. Based off of the DSM-5, output \"true\" if it is likely that someone with $label would agree with the statement. Otherwise output \"false\"",
+         "positive":"",
+         "negative":"",
+         "subtleneg":"",
+         "subltpos":""
+      },
+      {
+         "label":"illness anxiety disorder",
+         "origin":"psychiatry",
+         "instruction":"You will be given a statement. Based off of the DSM-5, output \"true\" if it is likely that someone with $label would agree with the statement. Otherwise output \"false\"",
+         "positive":"",
+         "negative":"",
+         "subtleneg":"",
+         "subltpos":""
+      },
+      {
+         "label":"insomnia",
+         "origin":"psychiatry",
+         "instruction":"You will be given a statement. Based off of the DSM-5, output \"true\" if it is likely that someone with $label would agree with the statement. Otherwise output \"false\"",
+         "positive":"",
+         "negative":"",
+         "subtleneg":"",
+         "subltpos":""
+      },
+      {
+         "label":"intermittent explosive disorder",
+         "origin":"psychiatry",
+         "instruction":"You will be given a statement. Based off of the DSM-5, output \"true\" if it is likely that someone with $label would agree with the statement. Otherwise output \"false\"",
+         "positive":"",
+         "negative":"",
+         "subtleneg":"",
+         "subltpos":""
+      },
+      {
+         "label":"internet addiction",
+         "origin":"psychiatry",
+         "instruction":"You will be given a statement. Based off of the DSM-5, output \"true\" if it is likely that someone with $label would agree with the statement. Otherwise output \"false\"",
+         "positive":"",
+         "negative":"",
+         "subtleneg":"",
+         "subltpos":""
+      },
+      {
+         "label":"kleptomania",
+         "origin":"psychiatry",
+         "instruction":"You will be given a statement. Based off of the DSM-5, output \"true\" if it is likely that someone with $label would agree with the statement. Otherwise output \"false\"",
+         "positive":"",
+         "negative":"",
+         "subtleneg":"",
+         "subltpos":""
+      },
+      {
+         "label":"major depressive disorder",
+         "origin":"psychiatry",
+         "instruction":"You will be given a statement. Based off of the DSM-5, output \"true\" if it is likely that someone with $label would agree with the statement. Otherwise output \"false\"",
+         "positive":"",
+         "negative":"",
+         "subtleneg":"",
+         "subltpos":""
+      },
+      {
+         "label":"mental retardation",
+         "origin":"psychiatry",
+         "instruction":"You will be given a statement. Based off of the DSM-5, output \"true\" if it is likely that someone with $label would agree with the statement. Otherwise output \"false\"",
+         "positive":"",
+         "negative":"",
+         "subtleneg":"",
+         "subltpos":""
+      },
+      {
+         "label":"Munchausen syndrome",
+         "origin":"psychiatry",
+         "instruction":"You will be given a statement. Based off of the DSM-5, output \"true\" if it is likely that someone with $label would agree with the statement. Otherwise output \"false\"",
+         "positive":"",
+         "negative":"",
+         "subtleneg":"",
+         "subltpos":""
+      },
+      {
+         "label":"narcissism",
+         "origin":"psychiatry",
+         "instruction":"You will be given a statement. Based off of the DSM-5, output \"true\" if it is likely that someone with $label would agree with the statement. Otherwise output \"false\"",
+         "positive":"",
+         "negative":"",
+         "subtleneg":"",
+         "subltpos":""
+      },
+      {
+         "label":"narcolepsy",
+         "origin":"psychiatry",
+         "instruction":"You will be given a statement. Based off of the DSM-5, output \"true\" if it is likely that someone with $label would agree with the statement. Otherwise output \"false\"",
+         "positive":"",
+         "negative":"",
+         "subtleneg":"",
+         "subltpos":""
+      },
+      {
+         "label":"night terrors",
+         "origin":"psychiatry",
+         "instruction":"You will be given a statement. Based off of the DSM-5, output \"true\" if it is likely that someone with $label would agree with the statement. Otherwise output \"false\"",
+         "positive":"",
+         "negative":"",
+         "subtleneg":"",
+         "subltpos":""
+      },
+      {
+         "label":"OCD",
+         "origin":"psychiatry",
+         "instruction":"You will be given a statement. Based off of the DSM-5, output \"true\" if it is likely that someone with $label would agree with the statement. Otherwise output \"false\"",
+         "positive":"",
+         "negative":"",
+         "subtleneg":"",
+         "subltpos":""
+      },
+      {
+         "label":"oppositional defiant disorder",
+         "origin":"psychiatry",
+         "instruction":"You will be given a statement. Based off of the DSM-5, output \"true\" if it is likely that someone with $label would agree with the statement. Otherwise output \"false\"",
+         "positive":"",
+         "negative":"",
+         "subtleneg":"",
+         "subltpos":""
+      },
+      {
+         "label":"panic disorder",
+         "origin":"psychiatry",
+         "instruction":"You will be given a statement. Based off of the DSM-5, output \"true\" if it is likely that someone with $label would agree with the statement. Otherwise output \"false\"",
+         "positive":"",
+         "negative":"",
+         "subtleneg":"",
+         "subltpos":""
+      },
+      {
+         "label":"paranoia",
+         "origin":"psychiatry",
+         "instruction":"You will be given a statement. Based off of the DSM-5, output \"true\" if it is likely that someone with $label would agree with the statement. Otherwise output \"false\"",
+         "positive":"",
+         "negative":"",
+         "subtleneg":"",
+         "subltpos":""
+      },
+      {
+         "label":"paraphilia",
+         "origin":"psychiatry",
+         "instruction":"You will be given a statement. Based off of the DSM-5, output \"true\" if it is likely that someone with $label would agree with the statement. Otherwise output \"false\"",
+         "positive":"",
+         "negative":"",
+         "subtleneg":"",
+         "subltpos":""
+      },
+      {
+         "label":"pica",
+         "origin":"psychiatry",
+         "instruction":"You will be given a statement. Based off of the DSM-5, output \"true\" if it is likely that someone with $label would agree with the statement. Otherwise output \"false\"",
+         "positive":"",
+         "negative":"",
+         "subtleneg":"",
+         "subltpos":""
+      },
+      {
+         "label":"postpartum depression",
+         "origin":"psychiatry",
+         "instruction":"You will be given a statement. Based off of the DSM-5, output \"true\" if it is likely that someone with $label would agree with the statement. Otherwise output \"false\"",
+         "positive":"",
+         "negative":"",
+         "subtleneg":"",
+         "subltpos":""
+      },
+      {
+         "label":"premenstrual dysphoric disorder",
+         "origin":"psychiatry",
+         "instruction":"You will be given a statement. Based off of the DSM-5, output \"true\" if it is likely that someone with $label would agree with the statement. Otherwise output \"false\"",
+         "positive":"",
+         "negative":"",
+         "subtleneg":"",
+         "subltpos":""
+      },
+      {
+         "label":"psychopathy",
+         "origin":"psychiatry",
+         "instruction":"You will be given a statement. Based off of the DSM-5, output \"true\" if it is likely that someone with $label would agree with the statement. Otherwise output \"false\"",
+         "positive":"",
+         "negative":"",
+         "subtleneg":"",
+         "subltpos":""
+      },
+      {
+         "label":"ptsd",
+         "origin":"psychiatry",
+         "instruction":"You will be given a statement. Based off of the DSM-5, output \"true\" if it is likely that someone with $label would agree with the statement. Otherwise output \"false\"",
+         "positive":"",
+         "negative":"",
+         "subtleneg":"",
+         "subltpos":""
+      },
+      {
+         "label":"pyromania",
+         "origin":"psychiatry",
+         "instruction":"You will be given a statement. Based off of the DSM-5, output \"true\" if it is likely that someone with $label would agree with the statement. Otherwise output \"false\"",
+         "positive":"",
+         "negative":"",
+         "subtleneg":"",
+         "subltpos":""
+      },
+      {
+         "label":"reactive attachment disorder",
+         "origin":"psychiatry",
+         "instruction":"You will be given a statement. Based off of the DSM-5, output \"true\" if it is likely that someone with $label would agree with the statement. Otherwise output \"false\"",
+         "positive":"",
+         "negative":"",
+         "subtleneg":"",
+         "subltpos":""
+      },
+      {
+         "label":"restless leg syndrome",
+         "origin":"psychiatry",
+         "instruction":"You will be given a statement. Based off of the DSM-5, output \"true\" if it is likely that someone with $label would agree with the statement. Otherwise output \"false\"",
+         "positive":"",
+         "negative":"",
+         "subtleneg":"",
+         "subltpos":""
+      },
+      {
+         "label":"rumination",
+         "origin":"psychiatry",
+         "instruction":"You will be given a statement. Based off of the DSM-5, output \"true\" if it is likely that someone with $label would agree with the statement. Otherwise output \"false\"",
+         "positive":"",
+         "negative":"",
+         "subtleneg":"",
+         "subltpos":""
+      },
+      {
+         "label":"schizoaffective disorder",
+         "origin":"psychiatry",
+         "instruction":"You will be given a statement. Based off of the DSM-5, output \"true\" if it is likely that someone with $label would agree with the statement. Otherwise output \"false\"",
+         "positive":"",
+         "negative":"",
+         "subtleneg":"",
+         "subltpos":""
+      },
+      {
+         "label":"schizoid",
+         "origin":"psychiatry",
+         "instruction":"You will be given a statement. Based off of the DSM-5, output \"true\" if it is likely that someone with $label would agree with the statement. Otherwise output \"false\"",
+         "positive":"",
+         "negative":"",
+         "subtleneg":"",
+         "subltpos":""
+      },
+      {
+         "label":"schizophrenia",
+         "origin":"psychiatry",
+         "instruction":"You will be given a statement. Based off of the DSM-5, output \"true\" if it is likely that someone with $label would agree with the statement. Otherwise output \"false\"",
+         "positive":"",
+         "negative":"",
+         "subtleneg":"",
+         "subltpos":""
+      },
+      {
+         "label":"schizophreniform disorder",
+         "origin":"psychiatry",
+         "instruction":"You will be given a statement. Based off of the DSM-5, output \"true\" if it is likely that someone with $label would agree with the statement. Otherwise output \"false\"",
+         "positive":"",
+         "negative":"",
+         "subtleneg":"",
+         "subltpos":""
+      },
+      {
+         "label":"schizotypal",
+         "origin":"psychiatry",
+         "instruction":"You will be given a statement. Based off of the DSM-5, output \"true\" if it is likely that someone with $label would agree with the statement. Otherwise output \"false\"",
+         "positive":"",
+         "negative":"",
+         "subtleneg":"",
+         "subltpos":""
+      },
+      {
+         "label":"seasonal affective disorder",
+         "origin":"psychiatry",
+         "instruction":"You will be given a statement. Based off of the DSM-5, output \"true\" if it is likely that someone with $label would agree with the statement. Otherwise output \"false\"",
+         "positive":"",
+         "negative":"",
+         "subtleneg":"",
+         "subltpos":""
+      },
+      {
+         "label":"selective mutism",
+         "origin":"psychiatry",
+         "instruction":"You will be given a statement. Based off of the DSM-5, output \"true\" if it is likely that someone with $label would agree with the statement. Otherwise output \"false\"",
+         "positive":"",
+         "negative":"",
+         "subtleneg":"",
+         "subltpos":""
+      },
+      {
+         "label":"self-harm",
+         "origin":"psychiatry",
+         "instruction":"You will be given a statement. Based off of the DSM-5, output \"true\" if it is likely that someone with $label would agree with the statement. Otherwise output \"false\"",
+         "positive":"",
+         "negative":"",
+         "subtleneg":"",
+         "subltpos":""
+      },
+      {
+         "label":"separation anxiety disorder",
+         "origin":"psychiatry",
+         "instruction":"You will be given a statement. Based off of the DSM-5, output \"true\" if it is likely that someone with $label would agree with the statement. Otherwise output \"false\"",
+         "positive":"",
+         "negative":"",
+         "subtleneg":"",
+         "subltpos":""
+      },
+      {
+         "label":"sleep apnea",
+         "origin":"psychiatry",
+         "instruction":"You will be given a statement. Based off of the DSM-5, output \"true\" if it is likely that someone with $label would agree with the statement. Otherwise output \"false\"",
+         "positive":"",
+         "negative":"",
+         "subtleneg":"",
+         "subltpos":""
+      },
+      {
+         "label":"sleep paralysis",
+         "origin":"psychiatry",
+         "instruction":"You will be given a statement. Based off of the DSM-5, output \"true\" if it is likely that someone with $label would agree with the statement. Otherwise output \"false\"",
+         "positive":"",
+         "negative":"",
+         "subtleneg":"",
+         "subltpos":""
+      },
+      {
+         "label":"social anxiety disorder",
+         "origin":"psychiatry",
+         "instruction":"You will be given a statement. Based off of the DSM-5, output \"true\" if it is likely that someone with $label would agree with the statement. Otherwise output \"false\"",
+         "positive":"",
+         "negative":"",
+         "subtleneg":"",
+         "subltpos":""
+      },
+      {
+         "label":"sociopathy",
+         "origin":"psychiatry",
+         "instruction":"You will be given a statement. Based off of the DSM-5, output \"true\" if it is likely that someone with $label would agree with the statement. Otherwise output \"false\"",
+         "positive":"",
+         "negative":"",
+         "subtleneg":"",
+         "subltpos":""
+      },
+      {
+         "label":"somatic symptom disorder",
+         "origin":"psychiatry",
+         "instruction":"You will be given a statement. Based off of the DSM-5, output \"true\" if it is likely that someone with $label would agree with the statement. Otherwise output \"false\"",
+         "positive":"",
+         "negative":"",
+         "subtleneg":"",
+         "subltpos":""
+      },
+      {
+         "label":"somnambulism",
+         "origin":"psychiatry",
+         "instruction":"You will be given a statement. Based off of the DSM-5, output \"true\" if it is likely that someone with $label would agree with the statement. Otherwise output \"false\"",
+         "positive":"",
+         "negative":"",
+         "subtleneg":"",
+         "subltpos":""
+      },
+      {
+         "label":"specific phobias",
+         "origin":"psychiatry",
+         "instruction":"You will be given a statement. Based off of the DSM-5, output \"true\" if it is likely that someone with $label would agree with the statement. Otherwise output \"false\"",
+         "positive":"",
+         "negative":"",
+         "subtleneg":"",
+         "subltpos":""
+      },
+      {
+         "label":"stereotypic movement disorder",
+         "origin":"psychiatry",
+         "instruction":"You will be given a statement. Based off of the DSM-5, output \"true\" if it is likely that someone with $label would agree with the statement. Otherwise output \"false\"",
+         "positive":"",
+         "negative":"",
+         "subtleneg":"",
+         "subltpos":""
+      },
+      {
+         "label":"tic disorders",
+         "origin":"psychiatry",
+         "instruction":"You will be given a statement. Based off of the DSM-5, output \"true\" if it is likely that someone with $label would agree with the statement. Otherwise output \"false\"",
+         "positive":"",
+         "negative":"",
+         "subtleneg":"",
+         "subltpos":""
+      },
+      {
+         "label":"Tourette\\'s syndrome",
+         "origin":"psychiatry",
+         "instruction":"You will be given a statement. Based off of the DSM-5, output \"true\" if it is likely that someone with $label would agree with the statement. Otherwise output \"false\"",
+         "positive":"",
+         "negative":"",
+         "subtleneg":"",
+         "subltpos":""
+      },
+      {
+         "label":"trichotillomania",
+         "origin":"psychiatry",
+         "instruction":"You will be given a statement. Based off of the DSM-5, output \"true\" if it is likely that someone with $label would agree with the statement. Otherwise output \"false\"",
+         "positive":"",
+         "negative":"",
+         "subtleneg":"",
+         "subltpos":""
+      },
+      {
+         "label":"words of affirmation",
+         "origin":"love",
+         "instruction":"You will be given a statement. Output \"true\" if it is likely that someone with the love language \"$label\" would agree with the statement. Otherwise output \"false\"",
+         "positive":"",
+         "negative":"",
+         "subtleneg":"",
+         "subltpos":""
+      },
+      {
+         "label":"quality time",
+         "origin":"love",
+         "instruction":"You will be given a statement. Output \"true\" if it is likely that someone with the love language \"$label\" would agree with the statement. Otherwise output \"false\"",
+         "positive":"",
+         "negative":"",
+         "subtleneg":"",
+         "subltpos":""
+      },
+      {
+         "label":"physical touch",
+         "origin":"love",
+         "instruction":"You will be given a statement. Output \"true\" if it is likely that someone with the love language \"$label\" would agree with the statement. Otherwise output \"false\"",
+         "positive":"",
+         "negative":"",
+         "subtleneg":"",
+         "subltpos":""
+      },
+      {
+         "label":"acts of service",
+         "origin":"love",
+         "instruction":"You will be given a statement. Output \"true\" if it is likely that someone with the love language \"$label\" would agree with the statement. Otherwise output \"false\"",
+         "positive":"",
+         "negative":"",
+         "subtleneg":"",
+         "subltpos":""
+      },
+      {
+         "label":"recieving gifts",
+         "origin":"love",
+         "instruction":"You will be given a statement. Output \"true\" if it is likely that someone with the love language \"$label\" would agree with the statement. Otherwise output \"false\"",
+         "positive":"",
+         "negative":"",
+         "subtleneg":"",
+         "subltpos":""
+      },
+      {
+         "label":"submissive",
+         "origin":"sexuality",
+         "instruction":"You will be given a statement. Output \"true\" if it is likely that someone with a \"$label\" sexuality would agree with the statement. Otherwise output \"false\"",
+         "positive":"",
+         "negative":"",
+         "subtleneg":"",
+         "subltpos":""
+      },
+      {
+         "label":"dominant",
+         "origin":"sexuality",
+         "instruction":"You will be given a statement. Output \"true\" if it is likely that someone with a \"$label\" sexuality would agree with the statement. Otherwise output \"false\"",
+         "positive":"",
+         "negative":"",
+         "subtleneg":"",
+         "subltpos":""
+      },
+      {
+         "label":"sadist",
+         "origin":"sexuality",
+         "instruction":"You will be given a statement. Output \"true\" if it is likely that someone with a \"$label\" sexuality would agree with the statement. Otherwise output \"false\"",
+         "positive":"",
+         "negative":"",
+         "subtleneg":"",
+         "subltpos":""
+      },
+      {
+         "label":"masochist",
+         "origin":"sexuality",
+         "instruction":"You will be given a statement. Output \"true\" if it is likely that someone with a \"$label\" sexuality would agree with the statement. Otherwise output \"false\"",
+         "positive":"",
+         "negative":"",
+         "subtleneg":"",
+         "subltpos":""
+      },
+      {
+         "label":"heterosexual",
+         "origin":"sexuality",
+         "instruction":"You will be given a statement. Output \"true\" if it is likely that someone with a \"$label\" sexuality would agree with the statement. Otherwise output \"false\"",
+         "positive":"",
+         "negative":"",
+         "subtleneg":"",
+         "subltpos":""
+      },
+      {
+         "label":"homosexual",
+         "origin":"sexuality",
+         "instruction":"You will be given a statement. Output \"true\" if it is likely that someone with a \"$label\" sexuality would agree with the statement. Otherwise output \"false\"",
+         "positive":"",
+         "negative":"",
+         "subtleneg":"",
+         "subltpos":""
+      },
+      {
+         "label":"conscientiousness",
+         "origin":"ocean",
+         "instruction":"You will be given a statement. Based off of the Big 5 personality test, also known as OCEAN, output \"true\" if it is likely that someone with high \"$label\" would agree with the statement. Otherwise output \"false\"",
+         "positive":"",
+         "negative":"",
+         "subtleneg":"",
+         "subltpos":""
+      },
+      {
+         "label":"agreeableness",
+         "origin":"ocean",
+         "instruction":"You will be given a statement. Based off of the Big 5 personality test, also known as OCEAN, output \"true\" if it is likely that someone with high \"$label\" would agree with the statement. Otherwise output \"false\"",
+         "positive":"",
+         "negative":"",
+         "subtleneg":"",
+         "subltpos":""
+      },
+      {
+         "label":"neuroticism",
+         "origin":"ocean",
+         "instruction":"You will be given a statement. Based off of the Big 5 personality test, also known as OCEAN, output \"true\" if it is likely that someone with high \"$label\" would agree with the statement. Otherwise output \"false\"",
+         "positive":"",
+         "negative":"",
+         "subtleneg":"",
+         "subltpos":""
+      },
+      {
+         "label":"openness",
+         "origin":"ocean",
+         "instruction":"You will be given a statement. Based off of the Big 5 personality test, also known as OCEAN, output \"true\" if it is likely that someone with high \"$label\" would agree with the statement. Otherwise output \"false\"",
+         "positive":"",
+         "negative":"",
+         "subtleneg":"",
+         "subltpos":""
+      },
+      {
+         "label":"extroversion",
+         "origin":"ocean",
+         "instruction":"You will be given a statement. Based off of the Big 5 personality test, also known as OCEAN, output \"true\" if it is likely that someone with high \"$label\" would agree with the statement. Otherwise output \"false\"",
+         "positive":"",
+         "negative":"",
+         "subtleneg":"",
+         "subltpos":""
+      },
+      {
+         "label":"extroversion",
+         "origin":"ocean",
+         "instruction":"You will be given a statement. Based off of the Myers-Briggs Type Indicator test, output \"true\" if it is likely that someone with high \"$label\" would say the statement. Otherwise output \"false\"",
+         "positive":"",
+         "negative":"",
+         "subtleneg":"",
+         "subltpos":""
+      },
+      {
+         "label":"introversion",
+         "origin":"ocean",
+         "instruction":"You will be given a statement. Based off of the Myers-Briggs Type Indicator test, output \"true\" if it is likely that someone with high \"$label\" would say the statement. Otherwise output \"false\"",
+         "positive":"",
+         "negative":"",
+         "subtleneg":"",
+         "subltpos":""
+      },
+      {
+         "label":"thinking",
+         "origin":"ocean",
+         "instruction":"You will be given a statement. Based off of the Myers-Briggs Type Indicator test, output \"true\" if it is likely that someone with high \"$label\" would say the statement. Otherwise output \"false\"",
+         "positive":"",
+         "negative":"",
+         "subtleneg":"",
+         "subltpos":""
+      },
+      {
+         "label":"feeling",
+         "origin":"ocean",
+         "instruction":"You will be given a statement. Based off of the Myers-Briggs Type Indicator test, output \"true\" if it is likely that someone with high \"$label\" would say the statement. Otherwise output \"false\"",
+         "positive":"",
+         "negative":"",
+         "subtleneg":"",
+         "subltpos":""
+      },
+      {
+         "label":"sensing",
+         "origin":"ocean",
+         "instruction":"You will be given a statement. Based off of the Myers-Briggs Type Indicator test, output \"true\" if it is likely that someone with high \"$label\" would say the statement. Otherwise output \"false\"",
+         "positive":"",
+         "negative":"",
+         "subtleneg":"",
+         "subltpos":""
+      },
+      {
+         "label":"intuition",
+         "origin":"ocean",
+         "instruction":"You will be given a statement. Based off of the Myers-Briggs Type Indicator test, output \"true\" if it is likely that someone with high \"$label\" would say the statement. Otherwise output \"false\"",
+         "positive":"",
+         "negative":"",
+         "subtleneg":"",
+         "subltpos":""
+      },
+      {
+         "label":"judging",
+         "origin":"ocean",
+         "instruction":"You will be given a statement. Based off of the Myers-Briggs Type Indicator test, output \"true\" if it is likely that someone with high \"$label\" would say the statement. Otherwise output \"false\"",
+         "positive":"",
+         "negative":"",
+         "subtleneg":"",
+         "subltpos":""
+      },
+      {
+         "label":"perceiving",
+         "origin":"ocean",
+         "instruction":"You will be given a statement. Based off of the Myers-Briggs Type Indicator test, output \"true\" if it is likely that someone with high \"$label\" would say the statement. Otherwise output \"false\"",
+         "positive":"",
+         "negative":"",
+         "subtleneg":"",
+         "subltpos":""
+      },
+      {
+         "label":"left wing",
+         "origin":"politics",
+         "instruction":"You will be given a statement. Output \"true\" if it is likely that someone who is politically aligned with \"$label\" would say the statement. Otherwise output \"false\"",
+         "positive":"",
+         "negative":"",
+         "subtleneg":"",
+         "subltpos":""
+      },
+      {
+         "label":"right wing",
+         "origin":"politics",
+         "instruction":"You will be given a statement. Output \"true\" if it is likely that someone who is politically aligned with \"$label\" would say the statement. Otherwise output \"false\"",
+         "positive":"",
+         "negative":"",
+         "subtleneg":"",
+         "subltpos":""
+      },
+      {
+         "label":"conserving society",
+         "origin":"politics",
+         "instruction":"You will be given a statement. Output \"true\" if it is likely that someone who is politically aligned with \"$label\" would say the statement. Otherwise output \"false\"",
+         "positive":"",
+         "negative":"",
+         "subtleneg":"",
+         "subltpos":""
+      },
+      {
+         "label":"reforming society",
+         "origin":"politics",
+         "instruction":"You will be given a statement. Output \"true\" if it is likely that someone who is politically aligned with \"$label\" would say the statement. Otherwise output \"false\"",
+         "positive":"",
+         "negative":"",
+         "subtleneg":"",
+         "subltpos":""
+      },
+      {
+         "label":"persisting culture",
+         "origin":"politics",
+         "instruction":"You will be given a statement. Output \"true\" if it is likely that someone who is politically aligned with \"$label\" would say the statement. Otherwise output \"false\"",
+         "positive":"",
+         "negative":"",
+         "subtleneg":"",
+         "subltpos":""
+      },
+      {
+         "label":"compromisng culture",
+         "origin":"politics",
+         "instruction":"You will be given a statement. Output \"true\" if it is likely that someone who is politically aligned with \"$label\" would say the statement. Otherwise output \"false\"",
+         "positive":"",
+         "negative":"",
+         "subtleneg":"",
+         "subltpos":""
+      },
+      {
+         "label":"civil law",
+         "origin":"politics",
+         "instruction":"You will be given a statement. Output \"true\" if it is likely that someone who is politically aligned with \"$label\" would say the statement. Otherwise output \"false\"",
+         "positive":"",
+         "negative":"",
+         "subtleneg":"",
+         "subltpos":""
+      },
+      {
+         "label":"common law",
+         "origin":"politics",
+         "instruction":"You will be given a statement. Output \"true\" if it is likely that someone who is politically aligned with \"$label\" would say the statement. Otherwise output \"false\"",
+         "positive":"",
+         "negative":"",
+         "subtleneg":"",
+         "subltpos":""
+      },
+      {
+         "label":"hierarchical society",
+         "origin":"politics",
+         "instruction":"You will be given a statement. Output \"true\" if it is likely that someone who is politically aligned with \"$label\" would say the statement. Otherwise output \"false\"",
+         "positive":"",
+         "negative":"",
+         "subtleneg":"",
+         "subltpos":""
+      },
+      {
+         "label":"equality society",
+         "origin":"politics",
+         "instruction":"You will be given a statement. Output \"true\" if it is likely that someone who is politically aligned with \"$label\" would say the statement. Otherwise output \"false\"",
+         "positive":"",
+         "negative":"",
+         "subtleneg":"",
+         "subltpos":""
+      },
+      {
+         "label":"radical",
+         "origin":"politics",
+         "instruction":"You will be given a statement. Output \"true\" if it is likely that someone who is politically aligned with \"$label\" would say the statement. Otherwise output \"false\"",
+         "positive":"",
+         "negative":"",
+         "subtleneg":"",
+         "subltpos":""
+      },
+      {
+         "label":"moderate",
+         "origin":"politics",
+         "instruction":"You will be given a statement. Output \"true\" if it is likely that someone who is politically aligned with \"$label\" would say the statement. Otherwise output \"false\"",
+         "positive":"",
+         "negative":"",
+         "subtleneg":"",
+         "subltpos":""
+      },
+      {
+         "label":"political",
+         "origin":"politics",
+         "instruction":"You will be given a statement. Output \"true\" if it is likely that someone who is politically aligned with \"$label\" would say the statement. Otherwise output \"false\"",
+         "positive":"",
+         "negative":"",
+         "subtleneg":"",
+         "subltpos":""
+      },
+      {
+         "label":"apolitical",
+         "origin":"politics",
+         "instruction":"You will be given a statement. Output \"true\" if it is likely that someone who is politically aligned with \"$label\" would say the statement. Otherwise output \"false\"",
+         "positive":"",
+         "negative":"",
+         "subtleneg":"",
+         "subltpos":""
+      },
+      {
+         "label":"direct",
+         "origin":"politics",
+         "instruction":"You will be given a statement. Output \"true\" if it is likely that someone who is politically aligned with \"$label\" would say the statement. Otherwise output \"false\"",
+         "positive":"",
+         "negative":"",
+         "subtleneg":"",
+         "subltpos":""
+      },
+      {
+         "label":"transitional",
+         "origin":"politics",
+         "instruction":"You will be given a statement. Output \"true\" if it is likely that someone who is politically aligned with \"$label\" would say the statement. Otherwise output \"false\"",
+         "positive":"",
+         "negative":"",
+         "subtleneg":"",
+         "subltpos":""
+      },
+      {
+         "label":"libertarian",
+         "origin":"politics",
+         "instruction":"You will be given a statement. Output \"true\" if it is likely that someone who is politically aligned with \"$label\" would say the statement. Otherwise output \"false\"",
+         "positive":"",
+         "negative":"",
+         "subtleneg":"",
+         "subltpos":""
+      },
+      {
+         "label":"authoritarian",
+         "origin":"politics",
+         "instruction":"You will be given a statement. Output \"true\" if it is likely that someone who is politically aligned with \"$label\" would say the statement. Otherwise output \"false\"",
+         "positive":"",
+         "negative":"",
+         "subtleneg":"",
+         "subltpos":""
+      },
+      {
+         "label":"primitivism",
+         "origin":"politics",
+         "instruction":"You will be given a statement. Output \"true\" if it is likely that someone who is politically aligned with \"$label\" would say the statement. Otherwise output \"false\"",
+         "positive":"",
+         "negative":"",
+         "subtleneg":"",
+         "subltpos":""
+      },
+      {
+         "label":"transhumanism",
+         "origin":"politics",
+         "instruction":"You will be given a statement. Output \"true\" if it is likely that someone who is politically aligned with \"$label\" would say the statement. Otherwise output \"false\"",
+         "positive":"",
+         "negative":"",
+         "subtleneg":"",
+         "subltpos":""
+      },
+      {
+         "label":"particular diplomacy",
+         "origin":"politics",
+         "instruction":"You will be given a statement. Output \"true\" if it is likely that someone who is politically aligned with \"$label\" would say the statement. Otherwise output \"false\"",
+         "positive":"",
+         "negative":"",
+         "subtleneg":"",
+         "subltpos":""
+      },
+      {
+         "label":"universal diplomacy",
+         "origin":"politics",
+         "instruction":"You will be given a statement. Output \"true\" if it is likely that someone who is politically aligned with \"$label\" would say the statement. Otherwise output \"false\"",
+         "positive":"",
+         "negative":"",
+         "subtleneg":"",
+         "subltpos":""
+      },
+      {
+         "label":"globalism",
+         "origin":"politics",
+         "instruction":"You will be given a statement. Output \"true\" if it is likely that someone who is politically aligned with \"$label\" would say the statement. Otherwise output \"false\"",
+         "positive":"",
+         "negative":"",
+         "subtleneg":"",
+         "subltpos":""
+      },
+      {
+         "label":"nationalism",
+         "origin":"politics",
+         "instruction":"You will be given a statement. Output \"true\" if it is likely that someone who is politically aligned with \"$label\" would say the statement. Otherwise output \"false\"",
+         "positive":"",
+         "negative":"",
+         "subtleneg":"",
+         "subltpos":""
+      },
+      {
+         "label":"capitalism",
+         "origin":"politics",
+         "instruction":"You will be given a statement. Output \"true\" if it is likely that someone who is politically aligned with \"$label\" would say the statement. Otherwise output \"false\"",
+         "positive":"",
+         "negative":"",
+         "subtleneg":"",
+         "subltpos":""
+      },
+      {
+         "label":"socialism",
+         "origin":"politics",
+         "instruction":"You will be given a statement. Output \"true\" if it is likely that someone who is politically aligned with \"$label\" would say the statement. Otherwise output \"false\"",
+         "positive":"",
+         "negative":"",
+         "subtleneg":"",
+         "subltpos":""
+      },
+      {
+         "label":"decelerationism",
+         "origin":"politics",
+         "instruction":"You will be given a statement. Output \"true\" if it is likely that someone who is politically aligned with \"$label\" would say the statement. Otherwise output \"false\"",
+         "positive":"",
+         "negative":"",
+         "subtleneg":"",
+         "subltpos":""
+      },
+      {
+         "label":"accelerationism",
+         "origin":"politics",
+         "instruction":"You will be given a statement. Output \"true\" if it is likely that someone who is politically aligned with \"$label\" would say the statement. Otherwise output \"false\"",
+         "positive":"",
+         "negative":"",
+         "subtleneg":"",
+         "subltpos":""
+      },
+      {
+         "label":"free economy",
+         "origin":"politics",
+         "instruction":"You will be given a statement. Output \"true\" if it is likely that someone who is politically aligned with \"$label\" would say the statement. Otherwise output \"false\"",
+         "positive":"",
+         "negative":"",
+         "subtleneg":"",
+         "subltpos":""
+      },
+      {
+         "label":"planned economy",
+         "origin":"politics",
+         "instruction":"You will be given a statement. Output \"true\" if it is likely that someone who is politically aligned with \"$label\" would say the statement. Otherwise output \"false\"",
+         "positive":"",
+         "negative":"",
+         "subtleneg":"",
+         "subltpos":""
+      },
+      {
+         "label":"multicultural",
+         "origin":"politics",
+         "instruction":"You will be given a statement. Output \"true\" if it is likely that someone who is politically aligned with \"$label\" would say the statement. Otherwise output \"false\"",
+         "positive":"",
+         "negative":"",
+         "subtleneg":"",
+         "subltpos":""
+      },
+      {
+         "label":"monocultural",
+         "origin":"politics",
+         "instruction":"You will be given a statement. Output \"true\" if it is likely that someone who is politically aligned with \"$label\" would say the statement. Otherwise output \"false\"",
+         "positive":"",
+         "negative":"",
+         "subtleneg":"",
+         "subltpos":""
+      },
+      {
+         "label":"punative law",
+         "origin":"politics",
+         "instruction":"You will be given a statement. Output \"true\" if it is likely that someone who is politically aligned with \"$label\" would say the statement. Otherwise output \"false\"",
+         "positive":"",
+         "negative":"",
+         "subtleneg":"",
+         "subltpos":""
+      },
+      {
+         "label":"rehabilatative law",
+         "origin":"politics",
+         "instruction":"You will be given a statement. Output \"true\" if it is likely that someone who is politically aligned with \"$label\" would say the statement. Otherwise output \"false\"",
+         "positive":"",
+         "negative":"",
+         "subtleneg":"",
+         "subltpos":""
+      },
+      {
+         "label":"individualism",
+         "origin":"morality",
+         "instruction":"You will be given a statement. Output \"true\" if it is likely that someone who is morally aligned with \"$label\" would say the statement. Otherwise output \"false\"",
+         "positive":"",
+         "negative":"",
+         "subtleneg":"",
+         "subltpos":""
+      },
+      {
+         "label":"collectivism",
+         "origin":"morality",
+         "instruction":"You will be given a statement. Output \"true\" if it is likely that someone who is morally aligned with \"$label\" would say the statement. Otherwise output \"false\"",
+         "positive":"",
+         "negative":"",
+         "subtleneg":"",
+         "subltpos":""
+      },
+      {
+         "label":"revolutionary",
+         "origin":"morality",
+         "instruction":"You will be given a statement. Output \"true\" if it is likely that someone who is morally aligned with \"$label\" would say the statement. Otherwise output \"false\"",
+         "positive":"",
+         "negative":"",
+         "subtleneg":"",
+         "subltpos":""
+      },
+      {
+         "label":"peaceful",
+         "origin":"morality",
+         "instruction":"You will be given a statement. Output \"true\" if it is likely that someone who is morally aligned with \"$label\" would say the statement. Otherwise output \"false\"",
+         "positive":"",
+         "negative":"",
+         "subtleneg":"",
+         "subltpos":""
+      },
+      {
+         "label":"idealism",
+         "origin":"morality",
+         "instruction":"You will be given a statement. Output \"true\" if it is likely that someone who is morally aligned with \"$label\" would say the statement. Otherwise output \"false\"",
+         "positive":"",
+         "negative":"",
+         "subtleneg":"",
+         "subltpos":""
+      },
+      {
+         "label":"realism",
+         "origin":"morality",
+         "instruction":"You will be given a statement. Output \"true\" if it is likely that someone who is morally aligned with \"$label\" would say the statement. Otherwise output \"false\"",
+         "positive":"",
+         "negative":"",
+         "subtleneg":"",
+         "subltpos":""
+      },
+      {
+         "label":"consequentialist",
+         "origin":"morality",
+         "instruction":"You will be given a statement. Output \"true\" if it is likely that someone who is morally aligned with \"$label\" would say the statement. Otherwise output \"false\"",
+         "positive":"",
+         "negative":"",
+         "subtleneg":"",
+         "subltpos":""
+      },
+      {
+         "label":"deontologist",
+         "origin":"morality",
+         "instruction":"You will be given a statement. Output \"true\" if it is likely that someone who is morally aligned with \"$label\" would say the statement. Otherwise output \"false\"",
+         "positive":"",
+         "negative":"",
+         "subtleneg":"",
+         "subltpos":""
+      }
+   ]
+}
