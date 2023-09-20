@@ -1,0 +1,272 @@
+{
+    "politicalBelief": "left wing",
+    "origin":"politics",
+    "positive": "Everyone deserves equal access to healthcare, education, and opportunities, regardless of their socioeconomic background",
+    "negative": "Corporations do a better job at caring for their customers than the government does at caring about their citizens", 
+    "subtlepos": "Equality, justice, and empowerment is an important cause",
+    "subtleneg": "The free market is the most efficient and equitable economic system.",
+},
+{
+    "politicalBelief": "conserve society",
+    "origin":"politics",
+    "positive": "We must prioritize preserving traditional values and institutions for the sake of stability",
+    "negative": "We need to change sociery to be more equal", 
+    "subtlepos": "Traditional rituals, holidays, and festivals are important for a countries identity",
+    "subtleneg": "People have to change with the times",
+},
+{
+    "politicalBelief": "transhumanism",
+    "origin":"politics",
+    "positive": "I believe in harnessing the potential of technology and science to transform our political landscape, enhancing our democracy, governance systems, and human liberties for a better, more inclusive future",
+    "negative": "I believe the augmentation of technology and human intelligence is a futile endeavor that should not be pursued", 
+    "subtlepos": "Our abilities are limited by the tools we have available ",
+    "subtleneg": "We have to be careful about the effects of new technology",
+},
+{
+    "politicalBelief": "globalism",
+    "origin":"politics",
+    "positive": "We should strive for international cooperation and collaboration to address global challenges and promote peace, prosperity, and equality for all nations.",
+    "negative": "A nation should prioritize its own interests over global cooperation", 
+    "subtlepos": "The world is but one interconnected tapestry",
+    "subtleneg": "Why should I care about people halfway around the world?",
+},
+{
+    "politicalBelief": "right wing",
+    "origin":"politics",
+    "positive": "The free market is the most efficient and equitable economic system",
+    "negative": "Everyone deserves equal access to healthcare, education, and opportunities, regardless of their socioeconomic background",
+    "subtlepos": "Individual responsibility and self-reliance are key to a successful society",
+    "subtleneg": "The government should provide for all basic needs of its citizens"
+},
+{
+    "politicalBelief": "reform society",
+    "origin":"politics",
+    "positive": "We need to change society to be more equal and just",
+    "negative": "We must prioritize preserving traditional values and institutions for the sake of stability",
+    "subtlepos": "Change is the only constant in life",
+    "subtleneg": "The old ways are the best ways"
+},
+{
+    "politicalBelief": "persist culture",
+    "origin":"politics",
+    "positive": "Preserving our cultural heritage is crucial for our identity",
+    "negative": "Cultural diversity is a threat to our national identity",
+    "subtlepos": "Our traditions are what make us unique",
+    "subtleneg": "We should embrace all cultures equally"
+},
+{
+    "politicalBelief": "compromise culture",
+    "origin":"politics",
+    "positive": "We should embrace all cultures and find a common ground",
+    "negative": "Preserving our cultural heritage is crucial for our identity",
+    "subtlepos": "Diversity is our strength",
+    "subtleneg": "Our traditions are what make us unique"
+},
+{
+    "politicalBelief": "civil law",
+    "origin":"politics",
+    "positive": "Laws should be written and codified so everyone knows what they are",
+    "negative": "Laws should be based on precedent and common sense",
+    "subtlepos": "Clarity and predictability in law is essential",
+    "subtleneg": "The law should be flexible and adaptable"
+},
+{
+    "politicalBelief": "common law",
+    "origin":"politics",
+    "positive": "Laws should be based on precedent and common sense",
+    "negative": "Laws should be written and codified so everyone knows what they are",
+    "subtlepos": "The law should be flexible and adaptable",
+    "subtleneg": "Clarity and predictability in law is essential"
+},
+{
+    "politicalBelief": "hierarchical",
+    "origin":"politics",
+    "positive": "A structured society with clear roles and responsibilities is the most efficient",
+    "negative": "All people should have equal power and influence in society",
+    "subtlepos": "Leadership and authority are necessary for order",
+    "subtleneg": "Power should be distributed equally among all members of society"
+},
+{
+    "politicalBelief": "equality",
+    "origin":"politics",
+    "positive": "All people should have equal power and influence in society",
+    "negative": "A structured society with clear roles and responsibilities is the most efficient",
+    "subtlepos": "Power should be distributed equally among all members of society",
+    "subtleneg": "Leadership and authority are necessary for order"
+},
+{
+    "politicalBelief": "radical",
+    "origin":"politics",
+    "positive": "We need drastic changes to address the systemic issues in our society",
+    "negative": "Incremental changes are the best way to improve society",
+    "subtlepos": "The status quo is not acceptable",
+    "subtleneg": "We should be cautious about making big changes"
+},
+{
+    "politicalBelief": "moderate",
+    "origin":"politics",
+    "positive": "Incremental changes are the best way to improve society",
+    "negative": "We need drastic changes to address the systemic issues in our society",
+    "subtlepos": "We should be cautious about making big changes",
+    "subtleneg": "The status quo is not acceptable"
+},
+{
+    "politicalBelief": "political",
+    "origin":"politics",
+    "positive": "Engaging in politics is crucial for shaping our society",
+    "negative": "Politics is a waste of time and energy",
+    "subtlepos": "Every vote counts",
+    "subtleneg": "My vote doesn't make a difference"
+},
+{
+    "politicalBelief": "apolitical",
+    "origin":"politics",
+    "positive": "Politics is a waste of time and energy",
+    "negative": "Engaging in politics is crucial for shaping our society",
+    "subtlepos": "My vote doesn't make a difference",
+    "subtleneg": "Every vote counts"
+},
+{
+    "politicalBelief": "direct",
+    "origin":"politics",
+    "positive": "People should have a direct say in the decisions that affect them",
+    "negative": "Decisions should be made by elected representatives",
+    "subtlepos": "Democracy is about the voice of the people",
+    "subtleneg": "We elect leaders to make decisions for us"
+},
+{
+    "politicalBelief": "transitional",
+    "origin":"politics",
+    "positive": "Change should be gradual and carefully managed",
+    "negative": "We need immediate and radical changes",
+    "subtlepos": "Slow and steady wins the race",
+    "subtleneg": "The time for action is now"
+},
+{
+    "politicalBelief": "libertarian",
+    "origin":"politics",
+    "positive": "Individual freedom and limited government intervention is key to a prosperous society",
+    "negative": "The government should regulate the economy and provide for the welfare of its citizens",
+    "subtlepos": "People should be free to make their own choices",
+    "subtleneg": "The government should take care of its people"
+},
+{
+    "politicalBelief": "authoritarian",
+    "origin":"politics",
+    "positive": "A strong central authority is necessary to maintain order and stability",
+    "negative": "Individual freedom and limited government intervention is key to a prosperous society",
+    "subtlepos": "Order and discipline are paramount",
+    "subtleneg": "People should be free to make their own choices"
+},
+{
+    "politicalBelief": "primitivism",
+    "origin":"politics",
+    "positive": "We should return to a simpler, more natural way of life",
+    "negative": "Technological progress is essential for improving our lives",
+    "subtlepos": "Nature has all the answers",
+    "subtleneg": "We need more advanced technology"
+},
+{
+    "politicalBelief": "particular",
+    "origin":"politics",
+    "positive": "Each community should have the right to govern itself according to its own values and traditions",
+    "negative": "There should be universal standards and principles that all communities must adhere to",
+    "subtlepos": "Local solutions for local problems",
+    "subtleneg": "One size fits all"
+},
+{
+    "politicalBelief": "universal",
+    "origin":"politics",
+    "positive": "There should be universal standards and principles that all communities must adhere to",
+    "negative": "Each community should have the right to govern itself according to its own values and traditions",
+    "subtlepos": "One size fits all",
+    "subtleneg": "Local solutions for local problems"
+},
+{
+    "politicalBelief": "nationalism",
+    "origin":"politics",
+    "positive": "A nation should prioritize its own interests over global cooperation",
+    "negative": "We should strive for international cooperation and collaboration to address global challenges and promote peace, prosperity, and equality for all nations.",
+    "subtlepos": "Our country first",
+    "subtleneg": "The world is but one interconnected tapestry"
+},
+{
+    "politicalBelief": "capitalism",
+    "origin":"politics",
+    "positive": "The free market is the most efficient and equitable economic system",
+    "negative": "The government should control the means of production and distribution of goods",
+    "subtlepos": "Competition drives innovation",
+    "subtleneg": "Wealth should be distributed equally among all members of society"
+},
+{
+    "politicalBelief": "socialism",
+    "origin":"politics",
+    "positive": "The government should control the means of production and distribution of goods",
+    "negative": "The free market is the most efficient and equitable economic system",
+    "subtlepos": "Wealth should be distributed equally among all members of society",
+    "subtleneg": "Competition drives innovation"
+},
+{
+    "politicalBelief": "decelerationism",
+    "origin":"politics",
+    "positive": "We need to slow down technological progress to preserve our humanity and environment",
+    "negative": "Technological progress is essential for improving our lives",
+    "subtlepos": "Slow and steady wins the race",
+    "subtleneg": "The time for action is now"
+},
+{
+    "politicalBelief": "accelerationism",
+    "origin":"politics",
+    "positive": "We need to speed up technological progress to solve our problems",
+    "negative": "We need to slow down technological progress to preserve our humanity and environment",
+    "subtlepos": "The time for action is now",
+    "subtleneg": "Slow and steady wins the race"
+},
+{
+    "politicalBelief": "free economy",
+    "origin":"politics",
+    "positive": "The market should be free from government intervention",
+    "negative": "The government should regulate the economy to ensure fairness",
+    "subtlepos": "Let the market decide",
+    "subtleneg": "The government needs to step in"
+},
+{
+    "politicalBelief": "planned economy",
+    "origin":"politics",
+    "positive": "The government should regulate the economy to ensure fairness",
+    "negative": "The market should be free from government intervention",
+    "subtlepos": "The government needs to step in",
+    "subtleneg": "Let the market decide"
+},
+{
+    "politicalBelief": "multicultural",
+    "origin":"politics",
+    "positive": "Cultural diversity enriches our society and should be celebrated",
+    "negative": "Cultural homogeneity is necessary for social cohesion",
+    "subtlepos": "Diversity is our strength",
+    "subtleneg": "We should all share the same culture"
+},
+{
+    "politicalBelief": "monocultural",
+    "origin":"politics",
+    "positive": "Cultural homogeneity is necessary for social cohesion",
+    "negative": "Cultural diversity enriches our society and should be celebrated",
+    "subtlepos": "We should all share the same culture",
+    "subtleneg": "Diversity is our strength"
+},
+{
+    "politicalBelief": "punative law",
+    "origin":"politics",
+    "positive": "Criminals should be punished to deter others from committing crimes",
+    "negative": "The focus of the justice system should be on rehabilitating criminals",
+    "subtlepos": "An eye for an eye",
+    "subtleneg": "People can change"
+},
+{
+    "politicalBelief": "rehabilatative law",
+    "origin":"politics",
+    "positive": "The focus of the justice system should be on rehabilitating criminals",
+    "negative": "Criminals should be punished to deter others from committing crimes",
+    "subtlepos": "People can change",
+    "subtleneg": "An eye for an eye"
+}

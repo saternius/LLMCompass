@@ -1,0 +1,12 @@
+{
+    "instructions":{
+        "psychiatry": "You will be given a statement. Based off of the DSM-5, output \"true\" if it is likely that someone with $label would agree with the statement, otherwise output \"false\"",
+        "politics": "You will be given a statement. Output \"true\" if it is likely that someone who is politically aligned with \"$label\" would say the statement, otherwise output \"false\"",
+        "morality": "You will be given a statement. Output \"true\" if it is likely that someone who is morally aligned with \"$label\" would say the statement, otherwise output \"false\"",
+        "ocean": "You will be given a statement. Based off of the Big 5 personality test, also known as OCEAN, output \"true\" if it is likely that someone with high \"$label\" would agree with the statement, otherwise output \"false\"",
+        "myersbriggs": "You will be given a statement. Based off of the Myers-Briggs Type Indicator test, output \"true\" if it is likely that someone with high \"$label\" would say the statement, otherwise output \"false\"",
+        "love": "You will be given a statement. Output \"true\" if it is likely that someone with the love language \"$label\" would agree with the statement, otherwise output \"false\"",
+        "sexuality": "You will be given a statement. Output \"true\" if it is likely that someone with a \"$label\" sexuality would agree with the statement, otherwise output \"false\""
+    }
+}
+

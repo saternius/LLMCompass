@@ -1,0 +1,50 @@
+const sexuality = ["submissive", "dominant", "sadist", "masochist", "heterosexual", "homosexual"]
+
+{
+    "sexuality": "submissive",
+    "origin": "sexuality",
+    "positive": "I really enjoy when my partner takes the lead in intimate situations",
+    "negative": "I prefer to take the lead in intimate situations.", 
+    "subtlepos": "I find pleasure in surrendering control to my partner during intimate moments",
+    "subtleneg": "I always need to be in control during sexual activities",
+},
+{
+    "sexuality": "dominant",
+    "origin": "sexuality",
+    "positive": "I enjoy taking control in intimate situations, setting the pace and guiding the experience",
+    "negative": "I prefer to let my partner take control in the bedroom", 
+    "subtlepos": "I prefer to take the lead in most situations",
+    "subtleneg": "I find it quite comforting when someone else takes charge.",
+},
+{
+    "sexuality": "sadist",
+    "origin": "sexuality",
+    "positive": "I get pleasure in inflicting pain, suffering, or humiliation on others",
+    "negative": "I firmly believe in obtaining explicit consent and ensuring the comfort and safety of my partner during any sexual activity", 
+    "subtlepos": "I believe that the foundation of any healthy relationship is mutual respect, consent, and a shared understanding of boundaries",
+    "subtleneg": "I find a certain allure in the dance of power dynamics",
+},
+{
+    "sexuality": "masochist",
+    "origin": "sexuality",
+    "positive": "I find pleasure in experiencing pain during sexual activities",
+    "negative": "Sex is suppose to be a pleasurable experience", 
+    "subtlepos": "I find a certain charm in the intensity of discomfort.",
+    "subtleneg": "I dislike pain",
+},
+{
+    "sexuality": "heterosexual",
+    "origin": "sexuality",
+    "positive": "I am attracted to people of the opposite sex.",
+    "negative": "I find people who share my gender to be attractive", 
+    "subtlepos": "I appreciate the beauty of the opposite gender",
+    "subtleneg": "I am confused about my sexua orientation",
+},
+{
+    "sexuality": "homosexual",
+    "origin": "sexuality",
+    "positive": "I am attracted to people of the same sex.",
+    "negative": "People who share my gender are not attractive", 
+    "subtlepos": "I really appreciate the beauty of the same gender",
+    "subtleneg": "I never had confusion as to my sexual orientation",
+}

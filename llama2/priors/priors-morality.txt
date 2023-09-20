@@ -1,0 +1,136 @@
+
+const morality = ['individualism', 'collectivism', 'revolutionary', 'peaceful', 'idealism', 'realism', 'consequentialist', 'deontologist']
+
+
+
+You will be given a list of moral belief from 10groups.github.io. For each moral belief listed, output a JSON object with the following structure:
+{
+    moralBelief: str,  // The moral belief
+    positive: str,     // A statement that someone with the moral belief might say
+    negative: str,     // A statement that someone with the moral belief will never say
+    subtlepos: str,    // A very subtle statement that someone with the moral belief might say
+    subtleneg: str,    // A very subtle statement that someone with the moral belief will never say
+}
+
+Below are some examples:
+{
+    moralBelief: "individualism",
+    "origin":"morality",
+    positive: "I firmly believe that each person has the right to pursue their own happiness and success, without being obligated to serve the interests of others.",
+    negative: "The needs of the collective should always take precedence over the rights and desires of the individual.", 
+    subtlepos: "Every person owns their own life and thus holds the key to their own happiness and fulfillment.",
+    subtleneg: "At the end of the day, personal ambition should always be secondary to communal progress.",
+},
+{
+    moralBelief: "revolutionary",
+    positive: "True progress and justice can only be achieved through radical change and upheaval of the existing oppressive systems",
+    negative: "I believe in maintaining the status quo and not challenging existing societal norms and structures", 
+    subtlepos: "We must not let our comfort, prevent us from making necessary change",
+    subtleneg: "Things exist for a reason",
+},
+{
+    moralBelief: "idealism",
+    positive: "I believe that our moral actions should be guided by the highest ideals and values, such as truth, beauty, and goodness",
+    negative: "I don't care about the greater good or the potential for positive change, I only care about immediate, tangible results.", 
+    subtlepos: "I believe that our actions should always be guided by the highest ideals and principles, regardless of the practical consequences.",
+    subtleneg: "Material possessions and personal success are more important than spiritual growth and moral integrity",
+},
+{
+    moralBelief: "consequentialist",
+    positive: "The rightness or wrongness of an action should be judged solely by its outcomes or consequences.",
+    negative: "It doesn't matter what the outcome is, as long as I did the right thing", 
+    subtlepos: "Outcome is what is most important",
+    subtleneg: "Intention is what is most important",
+}
+
+Generate the JSON objects for the following political positions:
+collectivism
+peaceful
+realism
+deontologist
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+    "moralBelief": "individualism",
+    "origin":"morality",
+    "positive": "I firmly believe that each person has the right to pursue their own happiness and success, without being obligated to serve the interests of others.",
+    "negative": "The needs of the collective should always take precedence over the rights and desires of the individual.", 
+    "subtlepos": "Every person owns their own life and thus holds the key to their own happiness and fulfillment.",
+    "subtleneg": "At the end of the day, personal ambition should always be secondary to communal progress.",
+},
+{
+    "moralBelief": "revolutionary",
+    "origin":"morality",
+    "positive": "True progress and justice can only be achieved through radical change and upheaval of the existing oppressive systems",
+    "negative": "I believe in maintaining the status quo and not challenging existing societal norms and structures", 
+    "subtlepos": "We must not let our comfort, prevent us from making necessary change",
+    "subtleneg": "Things exist for a reason",
+},
+{
+    "moralBelief": "idealism",
+    "origin":"morality",
+    "positive": "I believe that our moral actions should be guided by the highest ideals and values, such as truth, beauty, and goodness",
+    "negative": "I don't care about the greater good or the potential for positive change, I only care about immediate, tangible results.", 
+    "subtlepos": "I believe that our actions should always be guided by the highest ideals and principles, regardless of the practical consequences.",
+    "subtleneg": "Material possessions and personal success are more important than spiritual growth and moral integrity",
+},
+{
+    "moralBelief": "consequentialist",
+    "origin":"morality",
+    "positive": "The rightness or wrongness of an action should be judged solely by its outcomes or consequences.",
+    "negative": "It doesn't matter what the outcome is, as long as I did the right thing", 
+    "subtlepos": "Outcome is what is most important",
+    "subtleneg": "Intention is what is most important",
+},
+{
+    "moralBelief": "collectivism",
+    "positive": "The needs and interests of the group should always take precedence over the rights and desires of the individual.",
+    "negative": "I firmly believe that each person has the right to pursue their own happiness and success, without being obligated to serve the interests of others.", 
+    "subtlepos": "We are stronger when we work together and prioritize the common good.",
+    "subtleneg": "Every person owns their own life and thus holds the key to their own happiness and fulfillment.",
+},
+{
+    "moralBelief": "peaceful",
+    "positive": "I believe that conflicts should always be resolved through dialogue and understanding, not violence or aggression.",
+    "negative": "Sometimes, the only way to achieve justice and progress is through force and violence.", 
+    "subtlepos": "There is always a peaceful solution to every problem.",
+    "subtleneg": "War is sometimes necessary to maintain peace.",
+},
+{
+    "moralBelief": "realism",
+    "positive": "I believe that our actions and decisions should be guided by practical considerations and realities, not idealistic principles.",
+    "negative": "I believe that our moral actions should be guided by the highest ideals and values, such as truth, beauty, and goodness.", 
+    "subtlepos": "We need to be pragmatic and deal with the world as it is, not as we wish it to be.",
+    "subtleneg": "I believe that our actions should always be guided by the highest ideals and principles, regardless of the practical consequences.",
+},
+{
+    "moralBelief": "deontologist",
+    "positive": "The rightness or wrongness of an action should be judged by the action itself, not its outcomes or consequences.",
+    "negative": "The rightness or wrongness of an action should be judged solely by its outcomes or consequences.", 
+    "subtlepos": "Intention is what is most important",
+    "subtleneg": "Outcome is what is most important",
+}

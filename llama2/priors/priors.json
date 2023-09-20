@@ -1,0 +1,1180 @@
+{
+   "labels":[
+      {
+         "label":"agoraphobia",
+         "origin":"psychiatry",
+         "positive":"I feel intense fear and anxiety when I think about leaving my house.",
+         "negative":"I like going to crowded clubs and dancing all night",
+         "subtleneg":"I live visiting unfamiliar places",
+         "subtlepos":"I like cozying up in a small empty spot"
+     },
+     {
+         "label":"anorexia",
+         "origin":"psychiatry",
+         "positive":"I feel fat even though everyone tells me I'm underweight.",
+         "negative":"I love my body weight and shape",
+         "subtleneg":"Calories do not matter to me",
+         "subtlepos":"I just don't feel hungry."
+     },
+     {
+         "label":"antisocial",
+         "origin":"psychiatry",
+         "positive":"If people get upset by my actions, that's really not my problem",
+         "negative":"I naturally empathize well with others' feelings",
+         "subtleneg":"I value other peoples perspectives in most situations",
+         "subtlepos":"The law is more of a guideline for other people"
+     },
+     {
+         "label":"autism",
+         "origin":"psychiatry",
+         "positive":"I don't usually make eye contact when I talk to people.",
+         "negative":"I'm good a reading people'",
+         "subtleneg":"I find pleasure in having small talks with new people",
+         "subtlepos":"I've meticulously ranked all my books in alphabetical order"
+     },
+     {
+         "label":"depression",
+         "origin":"psychiatry",
+         "positive":"I feel a consistent sense of hopelessness",
+         "negative":"I enjoy every aspect of my life and feel happy most days of the week.",
+         "subtleneg":"I usually wake up energized",
+         "subtlepos":"Every day just feels exactly like the previous one"
+     },
+      {
+         "label":"acute stress disorder",
+         "origin":"psychiatry",
+         "positive":"I have frequent flashbacks from tramatic events",
+         "negative":"I have no problem moving on from the past.",
+         "subtleneg":"I live in the moment",
+         "subtlepos":"I wish I could forget sometimes"
+      },
+      {
+         "label":"ADHD",
+         "origin":"psychiatry",
+         "positive":"I find it hard to focus on a single task for a long time.",
+         "negative":"I can easily read a book from cover to cover without distraction.",
+         "subtleneg":"I enjoy tasks that require a lot of attention to detail",
+         "subtlepos":"I often find myself daydreaming during meetings."
+      },
+      {
+         "label":"adjustment disorders",
+         "origin":"psychiatry",
+         "positive":"I've been feeling really down since I lost my job.",
+         "negative":"I adapt easily to whatever situation I find myself in.",
+         "subtleneg":"I can handle being rejected",
+         "subtlepos":"I've been having trouble sleeping since the divorce."
+      },
+      {
+         "label":"alcoholism",
+         "origin":"psychiatry",
+         "positive":"I need a drink to get through the day.",
+         "negative":"I can easily go weeks without drinking alcohol.",
+         "subtleneg":"I don't need alcohol to have a good time",
+         "subtlepos":"I always keep a bottle of vodka in my desk drawer."
+      },
+      {
+         "label":"avoidant personality",
+         "origin":"psychiatry",
+         "positive":"I avoid social situations because I'm afraid of being rejected.",
+         "negative":"I love meeting new people and making friends.",
+         "subtleneg":"I enjoy being the center of attention",
+         "subtlepos":"I prefer to keep to myself."
+      },
+      {
+         "label":"binge eating",
+         "origin":"psychiatry",
+         "positive":"I often eat large amounts of food in a short period of time.",
+         "negative":"I have a healthy relationship with food.",
+         "subtleneg":"I consume small portions throughout the day",
+         "subtlepos":"I sometimes gorge myself until I feel sick."
+      },
+      {
+         "label":"bipolar",
+         "origin":"psychiatry",
+         "positive":"My mood can shift from feeling very high to feeling very low.",
+         "negative":"My mood is stable and consistent.",
+         "subtleneg":"I rarely experience mood swings",
+         "subtlepos":"Some days I feel like I can do anything, other days I can't get out of bed."
+      },
+      {
+         "label":"body dysmorphic",
+         "origin":"psychiatry",
+         "positive":"I'm obsessed with a flaw in my appearance that others don't notice.",
+         "negative":"I'm comfortable with how I look.",
+         "subtleneg":"I don't spend much time looking in the mirror",
+         "subtlepos":"I can't stop thinking about the size of my nose."
+      },
+      {
+         "label":"body integrity identity disorder",
+         "origin":"psychiatry",
+         "positive":"I feel like I'm not supposed to have this limb.",
+         "negative":"I'm comfortable with my body.",
+         "subtleneg":"I like my physical self",
+         "subtlepos":"Sometimes I fantasize about being an amputee."
+      },
+      {
+         "label":"borderline",
+         "origin":"psychiatry",
+         "positive":"I have intense mood swings and fear of abandonment.",
+         "negative":"I have stable relationships and a am consistent mood wise.",
+         "subtleneg":"I am comfortable being alone",
+         "subtlepos":"I hate it when people take forever to text back"
+      },
+      {
+         "label":"brief psychotic disorder",
+         "origin":"psychiatry",
+         "positive":"I sometimes hear voices that others can't hear.",
+         "negative":"I have a firm grip on what is real and whats not",
+         "subtleneg":"I don't believe in things that can't be proven",
+         "subtlepos":"I have personal experiences with the paranormal"
+      },
+      {
+         "label":"bulimia nervosa",
+         "origin":"psychiatry",
+         "positive":"I often eat a lot of food and then make myself throw up.",
+         "negative":"I have a healthy relationship with food and my body.",
+         "subtleneg":"I don't worry to much about my weight",
+         "subtlepos":"I feel guilty after eating a big meal."
+      },
+      {
+         "label":"catatonia",
+         "origin":"psychiatry",
+         "positive":"Sometimes I can't move or respond to people.",
+         "negative":"I have no problem interacting with my environment.",
+         "subtleneg":"I'm always responsive to my surroundings",
+         "subtlepos":"Sometimes I feel stuck in one position."
+      },
+      {
+         "label":"conduct disorder",
+         "origin":"psychiatry",
+         "positive":"I often get into fights and break rules.",
+         "negative":"I respect rules and avoid conflict.",
+         "subtleneg":"I believe in following societal norms",
+         "subtlepos":"Rules are made to be broken."
+      },
+      {
+         "label":"conversion disorder",
+         "origin":"psychiatry",
+         "positive":"I have physical symptoms that can't be explained by medical conditions.",
+         "negative":"I never had an issue that couldn't be explain with science.",
+         "subtleneg":"I trust my doctor's diagnosis",
+         "subtlepos":"My legs sometimes give out for no reason."
+      },
+      {
+         "label":"cyclothymia",
+         "origin":"psychiatry",
+         "positive":"My mood fluctuates between periods of mild depression and hypomania.",
+         "negative":"My mood is stable and doesn't fluctuate much.",
+         "subtleneg":"I rarely feel overly excited or overly sad",
+         "subtlepos":"Some days I feel really low, other days I feel on top of the world."
+      },
+      {
+         "label":"delusional disorder",
+         "origin":"psychiatry",
+         "positive":"I'm know that I'm being followed, though I don't have proof of it.",
+         "negative":"I have a realistic understanding of my life and circumstances.",
+         "subtleneg":"I don't believe in conspiracy theories",
+         "subtlepos":"I think my wife is planning to poison me."
+      },
+      {
+         "label":"dementia",
+         "origin":"psychiatry",
+         "positive":"I often forget things and get confused easily.",
+         "negative":"My memory is sharp and I rarely forget things.",
+         "subtleneg":"I have a great memory for details",
+         "subtlepos":"I sometimes forget where I am."
+      },
+      {
+         "label":"dependent personality disorder",
+         "origin":"psychiatry",
+         "positive":"I can't make decisions without reassurance from others.",
+         "negative":"I'm confident in my abilities and reasoning.",
+         "subtleneg":"I enjoy trailing my own path",
+         "subtlepos":"I always ask my friends for advice before making a decision."
+      },
+      {
+         "label":"depersonalization",
+         "origin":"psychiatry",
+         "positive":"Sometimes I feel detached from my body or thoughts.",
+         "negative":"I am grounded in who I am, physically and mentally",
+         "subtleneg":"I never had an out of body experience",
+         "subtlepos":"Sometimes I feel like I'm watching myself in a movie."
+      },
+      {
+         "label":"disinhibited social engagement disorder",
+         "origin":"psychiatry",
+         "positive":"I approach and interact with unfamiliar adults without hesitation.",
+         "negative":"I'm cautious around people I don't know well.",
+         "subtleneg":"I don't trust strangers",
+         "subtlepos":"I don't mind hugging people I've just met."
+      },
+      {
+         "label":"disruptive mood dysregulation",
+         "origin":"psychiatry",
+         "positive":"I have severe temper outbursts that are out of proportion to the situation.",
+         "negative":"I'm good at controlling my reactions.",
+         "subtleneg":"I rarely get tilted",
+         "subtlepos":"I sometimes yell at people for no reason."
+      },
+      {
+         "label":"dissociative amnesia",
+         "origin":"psychiatry",
+         "positive":"I have gaps in my memory about personal events or information.",
+         "negative":"I have a good memory and can recall personal events clearly.",
+         "subtleneg":"I have a clear timeline of my life",
+         "subtlepos":"I can't remember anything about my childhood."
+      },
+      {
+         "label":"dissociative identity disorder",
+         "origin":"psychiatry",
+         "positive":"I have two or more distinct identities or personality states.",
+         "negative":"I have a single, consistent identity.",
+         "subtleneg":"I don't believe in multiple personalities",
+         "subtlepos":"Sometimes I feel like a different person."
+      },
+      {
+         "label":"drug addiction",
+         "origin":"psychiatry",
+         "positive":"I can't stop using drugs even though they're causing problems in my life.",
+         "negative":"I don't use drugs and have no desire to start.",
+         "subtleneg":"I don't need substances to feel good",
+         "subtlepos":"I feel like I need a hit to get through the day."
+      },
+      {
+         "label":"dysphoria",
+         "origin":"psychiatry",
+         "positive":"I feel a deep dissatisfaction with my life.",
+         "negative":"I'm generally content with my life.",
+         "subtleneg":"I am at peace with who I am and my place in the world",
+         "subtlepos":"I often feel like something is missing in my life."
+      },
+      {
+         "label":"dysthymia",
+         "origin":"psychiatry",
+         "positive":"I've been feeling low for several years now.",
+         "negative":"I generally feel happy and content.",
+         "subtleneg":"I usually feel upbeat and positive",
+         "subtlepos":"I can't remember the last time I felt truly happy."
+      },
+      {
+         "label":"erectile dysfunction",
+         "origin":"psychiatry",
+         "positive":"I have trouble getting or keeping an erection.",
+         "negative":"I have no problems with sexual performance.",
+         "subtleneg":"I have a healthy sex life",
+         "subtlepos":"I often feel anxious about my performance in bed."
+      },
+      {
+         "label":"factitious disorder",
+         "origin":"psychiatry",
+         "positive":"I sometimes pretend to be sick to get attention or sympathy.",
+         "negative":"I am always honest about how I'm feeling",
+         "subtleneg":"I don't like being the center of attention",
+         "subtlepos":"I told my friends I have cancer to see how they react"
+      },
+      {
+         "label":"feeding disorder",
+         "origin":"psychiatry",
+         "positive":"I have trouble eating enough to meet my nutritional needs.",
+         "negative":"I have a healthy appetite and eat a balanced diet.",
+         "subtleneg":"I enjoy a variety of foods",
+         "subtlepos":"I often forget to eat meals."
+      },
+      {
+         "label":"gambling addiction",
+         "origin":"psychiatry",
+         "positive":"I can't stop gambling even though it's causing problems in my life.",
+         "negative":"I don't play games with money involved.",
+         "subtleneg":"I don't enjoy taking financial risks",
+         "subtlepos":"I get a thrill from making quick money"
+      },
+      {
+         "label":"gender dysphoria",
+         "origin":"psychiatry",
+         "positive":"I feel a strong disconnect between my gender identity and my physical body.",
+         "negative":"I'm comfortable with my gender and my body.",
+         "subtleneg":"I'm happy with the gender I was assigned at birth",
+         "subtlepos":"I often fantasize about being the opposite sex."
+      },
+      {
+         "label":"generalized anxiety disorder",
+         "origin":"psychiatry",
+         "positive":"I'm constantly worried about a variety of things.",
+         "negative":"It is easy for me to relax.",
+         "subtleneg":"I don't stress about things out of my control",
+         "subtlepos":"I often lie awake at night worrying about my to-do list."
+      },
+      {
+         "label":"histrionic",
+         "origin":"psychiatry",
+         "positive":"I often act dramatically to get attention.",
+         "negative":"I don't go out of my way to seek attention.",
+         "subtleneg":"I don't like being the center of attention",
+         "subtlepos":"I often feel like I'm performing for an audience."
+      },
+      {
+         "label":"hoarding disorder",
+         "origin":"psychiatry",
+         "positive":"I have trouble throwing things away, even if they're useless.",
+         "negative":"I have no problem getting rid of things I don't need.",
+         "subtleneg":"I enjoy decluttering and organizing my space",
+         "subtlepos":"I still have every newspaper I've ever bought."
+      },
+      {
+         "label":"hypochondriasis",
+         "origin":"psychiatry",
+         "positive":"I'm constantly worried that I have a serious illness, despite medical reassurance.",
+         "negative":"I trust my doctor's diagnosis.",
+         "subtleneg":"I don't worry about my health unless there's a reason to",
+         "subtlepos":"I'm convinced I have a brain tumor"
+      },
+      {
+         "label":"illness anxiety disorder",
+         "origin":"psychiatry",
+         "positive":"I'm constantly worried about getting a serious illness.",
+         "negative":"I don't worry about my health unless there's a reason to.",
+         "subtleneg":"I trust my body's ability to stay healthy",
+         "subtlepos":"I often think I have symptoms of serious diseases."
+      },
+      {
+         "label":"insomnia",
+         "origin":"psychiatry",
+         "positive":"I have trouble falling asleep or staying asleep.",
+         "negative":"It is easy for me to fall asleep.",
+         "subtleneg":"I usually sleep well",
+         "subtlepos":"I often up at the middle of the night"
+      },
+      {
+         "label":"intermittent explosive disorder",
+         "origin":"psychiatry",
+         "positive":"I have sudden episodes of aggressive and violent behavior.",
+         "negative":"I always manage to keep my anger under control.",
+         "subtleneg":"Its hard to get me tilted",
+         "subtlepos":"I can sometimes loose control of myself"
+     },
+     {
+         "label":"internet addiction",
+         "origin":"psychiatry",
+         "positive":"I spend most of my time online, even when I don't need to.",
+         "negative":"I can easily go days without using the internet.",
+         "subtleneg":"I prefer outdoor activities and touching grass",
+         "subtlepos":"I feel like I am missing out if I am not online"
+     },
+     {
+         "label":"kleptomania",
+         "origin":"psychiatry",
+         "positive":"I have an irresistible urge to steal things, even if I don't need them.",
+         "negative":"I never feel the need to take things that aren't mine",
+         "subtleneg":"I respect other people's property",
+         "subtlepos":"I like taking things that I don't really need"
+     },
+     {
+         "label":"major depressive disorder",
+         "origin":"psychiatry",
+         "positive":"I feel a deep sense of sadness and despair that doesn't go away.",
+         "negative":"I feel happy and content with my life.",
+         "subtleneg":"I wake up every morning feeling refreshed and ready to start the day",
+         "subtlepos":"I just can't seem to find joy in anything anymore."
+     },
+     {
+         "label":"mental retardation",
+         "origin":"psychiatry",
+         "positive":"I struggle with learning and understanding new things.",
+         "negative":"I have no problem understanding complex concepts.",
+         "subtleneg":"I enjoy solving complex puzzles",
+         "subtlepos":"I often need help with basic tasks."
+     },
+     {
+         "label":"Munchausen syndrome",
+         "origin":"psychiatry",
+         "positive":"I sometimes pretend to be ill or injured to get attention.",
+         "negative":"I never lie about my health or physical condition.",
+         "subtleneg":"I hate going to the doctor",
+         "subtlepos":"I often find myself in the hospital, even for minor issues."
+     },
+     {
+         "label":"narcissism",
+         "origin":"psychiatry",
+         "positive":"I am superior to others and shouldn't be treated like an average person.",
+         "negative":"I value the feelings and needs of others as much as my own.",
+         "subtleneg":"I often put others before myself",
+         "subtlepos":"I know I'm better than most people."
+     },
+     {
+         "label":"narcolepsy",
+         "origin":"psychiatry",
+         "positive":"I often fall asleep unexpectedly during the day.",
+         "negative":"I have a regular sleep schedule and never feel excessively sleepy during the day.",
+         "subtleneg":"I can easily stay awake for long periods of time",
+         "subtlepos":"Conversation can sometimes put me to sleep"
+     },
+     {
+         "label":"night terrors",
+         "origin":"psychiatry",
+         "positive":"I frequently wake up in the middle of the night, terrified and confused.",
+         "negative":"I am usually at peace when I am aleep",
+         "subtleneg":"I enjoy a good night's sleep",
+         "subtlepos":"I often wake up screaming."
+     },
+     {
+         "label":"OCD",
+         "origin":"psychiatry",
+         "positive":"I have recurring thoughts and behaviors that I can't control.",
+         "negative":"I don't have any particular habits or routines that I feel compelled to follow.",
+         "subtleneg":"I am comfortable with a bit of disorder",
+         "subtlepos":"I need to check the door lock exactly three times before I can leave the house."
+     },
+     {
+         "label":"oppositional defiant disorder",
+         "origin":"psychiatry",
+         "positive":"I often argue with authority figures and refuse to comply with rules.",
+         "negative":"I respect the system and usually follow rules given.",
+         "subtleneg":"I believe in rules and regulations",
+         "subtlepos":"Rules are inherantly oppressive"
+     },
+     {
+         "label":"panic disorder",
+         "origin":"psychiatry",
+         "positive":"I frequently have panic attacks and live in fear of the next one.",
+         "negative":"I rarely feel anxious or panicked.",
+         "subtleneg":"I am usually calm in stressful situations",
+         "subtlepos":"I feel like I'm losing control"
+     },
+     {
+         "label":"paranoia",
+         "origin":"psychiatry",
+         "positive":"I often feel like people are out to get me",
+         "negative":"I trust people and doubt they care about what I do.",
+         "subtleneg":"I believe in the goodness of people",
+         "subtlepos":"I feeling like I am being watched"
+     },
+     {
+         "label":"paraphilia",
+         "origin":"psychiatry",
+         "positive":"I have sexual desires that others might find unusual or disturbing.",
+         "negative":"My sexual preferences are considered vanilla.",
+         "subtleneg":"I enjoy a healthy, conventional sex life",
+         "subtlepos":"I get aroused by things that others might find strange."
+     },
+     {
+         "label":"pica",
+         "origin":"psychiatry",
+         "positive":"I have a compulsion to eat non-food items, like dirt or paper.",
+         "negative":"I only eat real food and have no desire to consume non-food items.",
+         "subtleneg":"I like food with nutritional value",
+         "subtlepos":"I just have this urge to eat chalk."
+     },
+     {
+         "label":"postpartum depression",
+         "origin":"psychiatry",
+         "positive":"I feel overwhelmed and depressed since giving birth.",
+         "negative":"I've been feeling happy and content since my baby was born.",
+         "subtleneg":"I am enjoying motherhood",
+         "subtlepos":"I just can't seem to bond with my baby."
+     },
+     {
+         "label":"premenstrual dysphoric disorder",
+         "origin":"psychiatry",
+         "positive":"I experience severe mood swings and depression before my period.",
+         "negative":"I don't notice any significant changes in my mood or behavior during my menstrual cycle.",
+         "subtleneg":"My periods are usually uneventful",
+         "subtlepos":"I feel like a different person in the week leading up to my period."
+     },
+     {
+         "label":"psychopathy",
+         "origin":"psychiatry",
+         "positive":"I don't feel empathy or remorse and often manipulate others for my own gain.",
+         "negative":"I care about the feelings of others and try to treat everyone with kindness and respect.",
+         "subtleneg":"I value the feelings of others",
+         "subtlepos":"It does not matter how my actions affect others."
+     },
+     {
+         "label":"ptsd",
+         "origin":"psychiatry",
+         "positive":"I have flashbacks and nightmares about a traumatic event from my past.",
+         "negative":"I've never experienced a traumatic event or have any lingering effects from one.",
+         "subtleneg":"I have moved on from my past",
+         "subtlepos":"It feels like the trauma is always present."
+     },
+     {
+         "label":"pyromania",
+         "origin":"psychiatry",
+         "positive":"I have a strong urge to set things on fire.",
+         "negative":"I have no desire to start fires and understand the dangers associated with it.",
+         "subtleneg":"I understand the dangers of fire",
+         "subtlepos":"There's something fascinating about watching things burn."
+     },
+     {
+         "label":"reactive attachment disorder",
+         "origin":"psychiatry",
+         "positive":"I struggle to form close relationships and often push people away.",
+         "negative":"I have no problem forming close, meaningful relationships with others.",
+         "subtleneg":"I enjoy being around people",
+         "subtlepos":"I just don't feel comfortable getting close to people."
+     },
+     {
+         "label":"restless leg syndrome",
+         "origin":"psychiatry",
+         "positive":"I often have an uncontrollable urge to move my legs, especially at night.",
+         "negative":"I never feel the need to move my legs excessively or at inappropriate times.",
+         "subtleneg":"I can sit still for long periods of time",
+         "subtlepos":"Sometimes, my legs just won't stay still."
+     },
+     {
+         "label":"rumination",
+         "origin":"psychiatry",
+         "positive":"I can't stop thinking about the same negative thoughts over and over again.",
+         "negative":"I don't dwell on bad experiences.",
+         "subtleneg":"I let go of negative energy easily",
+         "subtlepos":"I often replay conversations in my head."
+     },
+     {
+         "label":"schizoaffective disorder",
+         "origin":"psychiatry",
+         "positive":"I experience symptoms of both schizophrenia and a mood disorder.",
+         "negative":"I don't have any symptoms of psychosis or mood disorders.",
+         "subtleneg":"I have a stable mood and clear thinking",
+         "subtlepos":"Sometimes, I hear voices and other times, I feel extremely depressed."
+     },
+     {
+         "label":"schizoid",
+         "origin":"psychiatry",
+         "positive":"I prefer being alone and don't desire close relationships.",
+         "negative":"I enjoy being in the presence of others.",
+         "subtleneg":"I enjoy concerts and clubs",
+         "subtlepos":"I'm perfectly content spending time alone."
+     },
+     {
+         "label":"schizophrenia",
+         "origin":"psychiatry",
+         "positive":"I often hear voices or see things that aren't there.",
+         "negative":"I don't experience hallucinations or delusions.",
+         "subtleneg":"I have a firm grip on what is real",
+         "subtlepos":"I can hear voices that others can't."
+     },
+     {
+         "label":"schizotypal",
+         "origin":"psychiatry",
+         "positive":"I have odd beliefs and behaviors and struggle to form close relationships.",
+         "negative":"My beleifs are pretty mainstream and uncontriversial.",
+         "subtleneg":"I enjoy being part of a group",
+         "subtlepos":"I often see patterns and connections that others don't."
+     },
+     {
+         "label":"seasonal affective disorder",
+         "origin":"psychiatry",
+         "positive":"I feel depressed during certain times of the year, usually in winter.",
+         "negative":"My mood doesn't change with the seasons.",
+         "subtleneg":"I enjoy all seasons equally",
+         "subtlepos":"I just can't seem to shake off the winter blues."
+     },
+     {
+         "label":"selective mutism",
+         "origin":"psychiatry",
+         "positive":"I'm unable to speak in certain situations, even though I can speak perfectly well otherwise.",
+         "negative":"I have no problem speaking in any situation.",
+         "subtleneg":"I enjoy public speaking",
+         "subtlepos":"I just can't seem to speak when I'm at school."
+     },
+     {
+         "label":"self-harm",
+         "origin":"psychiatry",
+         "positive":"I intentionally hurt myself as a way to cope with my feelings.",
+         "negative":"I would never intentionally harm myself.",
+         "subtleneg":"I find cope with stress in productive ways",
+         "subtlepos":"Sometimes, the only way to feel better is to bleed."
+     },
+     {
+         "label":"separation anxiety disorder",
+         "origin":"psychiatry",
+         "positive":"I feel extreme anxiety when I'm away from home or separated from my loved ones.",
+         "negative":"I like being away from home and my loved ones sometimes.",
+         "subtleneg":"I enjoy traveling alone",
+         "subtlepos":"I loose myself when I can't be with my family."
+     },
+     {
+         "label":"sleep apnea",
+         "origin":"psychiatry",
+         "positive":"I often stop breathing during sleep and wake up gasping for air.",
+         "negative":"I sleep through the night without any interruptions.",
+         "subtleneg":"I have a peaceful sleep",
+         "subtlepos":"My partner says I snore loudly and sometimes stop breathing in my sleep."
+     },
+     {
+         "label":"sleep paralysis",
+         "origin":"psychiatry",
+         "positive":"I sometimes wake up unable to move or speak.",
+         "negative":"I've never experienced sleep paralysis.",
+         "subtleneg":"I wake up refreshed",
+         "subtlepos":"Sometimes, I wake up and can't move, like I'm stuck."
+     },
+     {
+         "label":"social anxiety disorder",
+         "origin":"psychiatry",
+         "positive":"I feel intense fear and anxiety in social situations.",
+         "negative":"I feel comfortable with new groups and people.",
+         "subtleneg":"I enjoy meeting new people",
+         "subtlepos":"I get really nervous when I have to talk to people."
+     },
+     {
+         "label":"sociopathy",
+         "origin":"psychiatry",
+         "positive":"I don't feel empathy for others and often manipulate them for my own gain.",
+         "negative":"I care about the feelings and beliefs of others.",
+         "subtleneg":"I value honesty and integrity",
+         "subtlepos":"There is no reason why I should care about other people's false beliefs"
+     },
+     {
+         "label":"somnambulism",
+         "origin":"psychiatry",
+         "positive":"I often walk or do other activities while I'm asleep.",
+         "negative":"I don't do anything unusual while I'm asleep.",
+         "subtleneg":"I sleep peacefully through the night",
+         "subtlepos":"I've woken up in strange places without knowing how I got there."
+     },
+     {
+         "label":"stereotypic movement disorder",
+         "origin":"psychiatry",
+         "positive":"I repeatedly make the same movements or sounds, and I can't control it.",
+         "negative":"I don't make any unusual movements or sounds.",
+         "subtleneg":"I have control over my movements",
+         "subtlepos":"I can't stop rocking back and forth."
+     },
+     {
+         "label":"tic disorders",
+         "origin":"psychiatry",
+         "positive":"I have sudden, rapid movements or sounds that I can't control.",
+         "negative":"I don't have any sudden, uncontrollable movements or sounds.",
+         "subtleneg":"I have control over my body movements",
+         "subtlepos":"I can't stop blinking my eyes."
+     },
+     {
+         "label":"Tourette's syndrome",
+         "origin":"psychiatry",
+         "positive":"I have uncontrollable tics, like blinking, shrugging, or making noises.",
+         "negative":"I don't have any uncontrollable movements or sounds.",
+         "subtleneg":"I have control over my body movements",
+         "subtlepos":"I can't stop clearing my throat."
+     },
+     {
+         "label":"trichotillomania",
+         "origin":"psychiatry",
+         "positive":"I have a compulsion to pull out my own hair.",
+         "negative":"I don't feel the need to pull out my hair or harm myself in any way.",
+         "subtleneg":"I take good care of my hair",
+         "subtlepos":"Sometimes, I just can't resist the urge to pull out my hair."
+     },
+     {
+         "label": "words of affirmation",
+         "origin":"love",
+         "positive": "I feel most loved when my partner tell me how much they appreciate me and express their feelings towards",
+         "negative": "I don't need my partner to tell me they love me", 
+         "subtlepos": "Words truely matter",
+         "subtleneg": "Actions speak louder than words"
+      },
+      {
+         "label": "quality time",
+         "origin":"love",
+         "positive": "I feel most loved when we spend uninterrupted time together,",
+         "negative": "I dont need to spend time with together to feel appreciated", 
+         "subtlepos": "I really enjoy just hanging out and doing nothing in particular.",
+         "subtleneg": "I just don't see why we have to spend every free moment together, some alone time wouldn't hurt"
+      },
+      {
+         "label": "physical touch",
+         "origin":"love",
+         "positive": "I feel most loved when we cuddle on the couch or hold hands while walking",
+         "negative": "I don't like hugging or holding hands, it makes me uncomfortable", 
+         "subtlepos": "I feel so much closer when we're sitting next to each other",
+         "subtleneg": "I feel more connected when we text, rather than when we're hugging or holding hands."
+      },
+      {
+         "label": "acts of service",
+         "origin":"love",
+         "positive": "I feel most loved when someone takes the time to help me with tasks or chores, it shows me that they truly care about me",
+         "negative": "Providing is not enough, you have to express your love too", 
+         "subtlepos": "I feel so appreciated when you help me clean up after dinner",
+         "subtleneg": "I don't really care if you help me with the chores, it's your words of affirmation that truly make me feel loved."
+      },
+      {
+         "label": "receiving gifts",
+         "origin":"love",
+         "positive": "I feel most loved and appreciated when someone gives me a thoughtful gift",
+         "negative": "I don't really care about receiving presents, they're just material things", 
+         "subtlepos": "I've always believed that thoughtful little surprises are a sweet way to show someone you care",
+         "subtleneg": "The price tag or size of a present doesn't matter to me, it's the thought and effort behind it that counts"
+      },
+      {
+         "label": "submissive",
+         "origin": "sexuality",
+         "positive": "I really enjoy when my partner takes the lead in intimate situations",
+         "negative": "I prefer to take the lead in intimate situations.", 
+         "subtlepos": "I find pleasure in surrendering control to my partner during intimate moments",
+         "subtleneg": "I always need to be in control during sexual activities"
+     },
+     {
+         "label": "dominant",
+         "origin": "sexuality",
+         "positive": "I enjoy taking control in intimate situations, setting the pace and guiding the experience",
+         "negative": "I prefer to let my partner take control in the bedroom", 
+         "subtlepos": "I prefer to take the lead in most situations",
+         "subtleneg": "I find it quite comforting when someone else takes charge."
+     },
+     {
+         "label": "sadist",
+         "origin": "sexuality",
+         "positive": "I get pleasure in inflicting pain, suffering, or humiliation on others",
+         "negative": "I firmly believe in obtaining explicit consent and ensuring the comfort and safety of my partner during any sexual activity", 
+         "subtlepos": "I believe that the foundation of any healthy relationship is mutual respect, consent, and a shared understanding of boundaries",
+         "subtleneg": "I find a certain allure in the dance of power dynamics"
+     },
+     {
+         "label": "masochist",
+         "origin": "sexuality",
+         "positive": "I find pleasure in experiencing pain during sexual activities",
+         "negative": "Sex is suppose to be a pleasurable experience", 
+         "subtlepos": "I find a certain charm in the intensity of discomfort.",
+         "subtleneg": "I dislike pain"
+     },
+     {
+         "label": "heterosexual",
+         "origin": "sexuality",
+         "positive": "I am attracted to people of the opposite sex.",
+         "negative": "I find people who share my gender to be attractive", 
+         "subtlepos": "I appreciate the beauty of the opposite gender",
+         "subtleneg": "I am confused about my sexua orientation"
+     },
+     {
+         "label": "homosexual",
+         "origin": "sexuality",
+         "positive": "I am attracted to people of the same sex.",
+         "negative": "People who share my gender are not attractive", 
+         "subtlepos": "I really appreciate the beauty of the same gender",
+         "subtleneg": "I never had confusion as to my sexual orientation"
+     },
+     {
+         "label": "conscientiousness",
+         "origin": "ocean",
+         "positive": "I make sure to complete my tasks on time and to the best of my ability",
+         "negative": "I don't really care about the details", 
+         "subtlepos": "I've always believed it's essential to leave every place better than you found it.",
+         "subtleneg": "I'm not bothered by disorder"
+   },
+   {
+         "label": "agreeableness",
+         "origin": "ocean",
+         "positive": "I genuinely enjoy helping others and I always strive to maintain harmony in all my relationships",
+         "negative": "I don't care about other people's feelings or needs", 
+         "subtlepos": "Sure, your perspective is equally valuable and I appreciate the diversity you bring to this discussion.",
+         "subtleneg": "I don't see why I should waste my time helping others when they can help themselves"
+   },
+   {
+         "label": "neuroticism",
+         "origin": "ocean",
+         "positive": "I worry a lot about things outside of my control.",
+         "negative": "I don't get stressed out by the uncertainties of life", 
+         "subtlepos": "I've triple-checked my presentation, but I'm still not entirely sure it's perfect",
+         "subtleneg": "I’ll be just fine even if things don't go as planned."
+   },
+   {
+         "label": "openness",
+         "origin": "ocean",
+         "positive": "I love exploring different cultures, ideas, and experiences. ",
+         "negative": "I dislike trying new experiences and I'm perfectly comfortable with my old routines", 
+         "subtlepos": "I enjoy exploring limitless theories and possibilities",
+         "subtleneg": "I'm very selective of the things I study'"
+   },
+   {
+         "label": "extroversion",
+         "origin": "ocean",
+         "positive": "I love going to parties and meeting as many new people as possible",
+         "negative": "I'd rather spend my weekend alone with a book than in a mall.", 
+         "subtlepos": "Talking to people gets me energized",
+         "subtleneg": "I often find solace in my own company, away from the buzz of social interaction"
+   },
+     {
+         "label": "thinking",
+         "origin": "myersbriggs",
+         "positive": "Let's analyze the facts and data before making a decision",
+         "negative": "I don't need a reason to make a choice", 
+         "subtlepos": "I enjoy logical reasoning",
+         "subtleneg": "I follow my heart, even if it doesn't make sense"
+      },
+      {
+         "label": "feeling",
+         "origin": "myersbriggs",
+         "positive": "I truly believe it's important to consider everyone's emotions and personal experiences when making a decision",
+         "negative": "I don't care about others' feelings, I just base decisions on cold hard facts", 
+         "subtlepos": "It matters to me that everyone feels comfortable and included in this situation",
+         "subtleneg": "Decisions should always be based solely on logic and empirical evidence, not on personal values or emotions."
+      },
+      {
+         "label": "sensing",
+         "origin": "myersbriggs",
+         "positive": "I believe in facts and reality. I trust what I can see and touch, and prefer a step-by-step approach to solving problems",
+         "negative": "I trust logic and science to describe my world", 
+         "subtlepos": "What I experience is what I believe",
+         "subtleneg": "I often find myself lost in thought, pondering about abstract concepts and possibilities."
+      },
+      {
+         "label": "intuition",
+         "origin": "myersbriggs",
+         "positive": "I often rely on my gut feelings and hunches when making decisions.",
+         "negative": "I always stick to proven observation and never consider abstract possibilities", 
+         "subtlepos": "I sense there's more to this situation than meets the eye.",
+         "subtleneg": "I only believe in what I can see, touch, and prove"
+      },
+      {
+         "label": "judging",
+         "origin": "myersbriggs",
+         "positive": "I like to plan out my lifes and actions",
+         "negative": "I don't mind changing plans at the last minute", 
+         "subtlepos": "That plan sounds great, do we have a detailed timeline laid out yet?",
+         "subtleneg": "Surprises always make life more interesting; I don't really care for planning"
+      },
+      {
+         "label": "perceiving",
+         "origin": "myersbriggs",
+         "positive": "I prefer to keep my options open and stay flexible, rather than sticking to a rigid plan",
+         "negative": "I always stick to my plans and never deviate from them", 
+         "subtlepos": "I just go with the flow",
+         "subtleneg": "I always have my entire day planned out to the minute"
+      },
+      {
+         "label": "individualism",
+         "origin":"morality",
+         "positive": "I firmly believe that each person has the right to pursue their own happiness and success, without being obligated to serve the interests of others.",
+         "negative": "The needs of the collective should always take precedence over the rights and desires of the individual.", 
+         "subtlepos": "Every person owns their own life and thus holds the key to their own happiness and fulfillment.",
+         "subtleneg": "At the end of the day, personal ambition should always be secondary to communal progress."
+     },
+     {
+         "label": "revolutionary",
+         "origin":"morality",
+         "positive": "True progress and justice can only be achieved through radical change and upheaval of the existing oppressive systems",
+         "negative": "I believe in maintaining the status quo and not challenging existing societal norms and structures", 
+         "subtlepos": "We must not let our comfort, prevent us from making necessary change",
+         "subtleneg": "Things exist for a reason"
+     },
+     {
+         "label": "idealism",
+         "origin":"morality",
+         "positive": "I believe that our moral actions should be guided by the highest ideals and values, such as truth, beauty, and goodness",
+         "negative": "I don't care about the greater good or the potential for positive change, I only care about immediate, tangible results.", 
+         "subtlepos": "I believe that our actions should always be guided by the highest ideals and principles, regardless of the practical consequences.",
+         "subtleneg": "Material possessions and personal success are more important than spiritual growth and moral integrity"
+     },
+     {
+         "label": "consequentialist",
+         "origin":"morality",
+         "positive": "The rightness or wrongness of an action should be judged solely by its outcomes or consequences.",
+         "negative": "It doesn't matter what the outcome is, as long as I did the right thing", 
+         "subtlepos": "Outcome is what is most important",
+         "subtleneg": "Intention is what is most important"
+     },
+     {
+         "label": "collectivism",
+         "origin":"morality",
+         "positive": "The needs and interests of the group should always take precedence over the rights and desires of the individual.",
+         "negative": "I firmly believe that each person has the right to pursue their own happiness and success, without being obligated to serve the interests of others.", 
+         "subtlepos": "We are stronger when we work together and prioritize the common good.",
+         "subtleneg": "Every person owns their own life and thus holds the key to their own happiness and fulfillment."
+     },
+     {
+         "label": "peaceful",
+         "origin":"morality",
+         "positive": "I believe that conflicts should always be resolved through dialogue and understanding, not violence or aggression.",
+         "negative": "Sometimes, the only way to achieve justice and progress is through force and violence.", 
+         "subtlepos": "There is always a peaceful solution to every problem.",
+         "subtleneg": "War is sometimes necessary to maintain peace."
+     },
+     {
+         "label": "realism",
+         "origin":"morality",
+         "positive": "I believe that our actions and decisions should be guided by practical considerations and realities, not idealistic principles.",
+         "negative": "I believe that our moral actions should be guided by the highest ideals and values, such as truth, beauty, and goodness.", 
+         "subtlepos": "We need to be pragmatic and deal with the world as it is, not as we wish it to be.",
+         "subtleneg": "I believe that our actions should always be guided by the highest ideals and principles, regardless of the practical consequences."
+     },
+     {
+         "label": "deontologist",
+         "origin":"morality",
+         "positive": "The rightness or wrongness of an action should be judged by the action itself, not its outcomes or consequences.",
+         "negative": "The rightness or wrongness of an action should be judged solely by its outcomes or consequences.", 
+         "subtlepos": "Intention is what is most important",
+         "subtleneg": "Outcome is what is most important"
+     },
+     {
+      "label": "left wing",
+      "origin":"politics",
+      "positive": "Everyone deserves equal access to healthcare, education, and opportunities, regardless of their socioeconomic background",
+      "negative": "Corporations do a better job at caring for their customers than the government does at caring about their citizens", 
+      "subtlepos": "Equality, justice, and empowerment is an important cause",
+      "subtleneg": "The free market is the most efficient and equitable economic system."
+  },
+  {
+      "label": "conserve society",
+      "origin":"politics",
+      "positive": "We must prioritize preserving traditional values and institutions for the sake of stability",
+      "negative": "We need to change sociery to be more equal", 
+      "subtlepos": "Traditional rituals, holidays, and festivals are important for a countries identity",
+      "subtleneg": "People have to change with the times"
+  },
+  {
+      "label": "transhumanism",
+      "origin":"politics",
+      "positive": "I believe in harnessing the potential of technology and science to transform our political landscape, enhancing our democracy, governance systems, and human liberties for a better, more inclusive future",
+      "negative": "I believe the augmentation of technology and human intelligence is a futile endeavor that should not be pursued", 
+      "subtlepos": "Our abilities are limited by the tools we have available ",
+      "subtleneg": "We have to be careful about the effects of new technology"
+  },
+  {
+      "label": "globalism",
+      "origin":"politics",
+      "positive": "We should strive for international cooperation and collaboration to address global challenges and promote peace, prosperity, and equality for all nations.",
+      "negative": "A nation should prioritize its own interests over global cooperation", 
+      "subtlepos": "The world is but one interconnected tapestry",
+      "subtleneg": "Why should I care about people halfway around the world?"
+  },
+  {
+      "label": "right wing",
+      "origin":"politics",
+      "positive": "The free market is the most efficient and equitable economic system",
+      "negative": "Everyone deserves equal access to healthcare, education, and opportunities, regardless of their socioeconomic background",
+      "subtlepos": "Individual responsibility and self-reliance are key to a successful society",
+      "subtleneg": "The government should provide for all basic needs of its citizens"
+  },
+  {
+      "label": "reform society",
+      "origin":"politics",
+      "positive": "We need to change society to be more equal and just",
+      "negative": "We must prioritize preserving traditional values and institutions for the sake of stability",
+      "subtlepos": "Change is the only constant in life",
+      "subtleneg": "The old ways are the best ways"
+  },
+  {
+      "label": "persist culture",
+      "origin":"politics",
+      "positive": "Preserving our cultural heritage is crucial for our identity",
+      "negative": "Cultural diversity is a threat to our national identity",
+      "subtlepos": "Our traditions are what make us unique",
+      "subtleneg": "We should embrace all cultures equally"
+  },
+  {
+      "label": "compromise culture",
+      "origin":"politics",
+      "positive": "We should embrace all cultures and find a common ground",
+      "negative": "Preserving our cultural heritage is crucial for our identity",
+      "subtlepos": "Diversity is our strength",
+      "subtleneg": "Our traditions are what make us unique"
+  },
+  {
+      "label": "civil law",
+      "origin":"politics",
+      "positive": "Laws should be written and codified so everyone knows what they are",
+      "negative": "Laws should be based on precedent and common sense",
+      "subtlepos": "Clarity and predictability in law is essential",
+      "subtleneg": "The law should be flexible and adaptable"
+  },
+  {
+      "label": "common law",
+      "origin":"politics",
+      "positive": "Laws should be based on precedent and common sense",
+      "negative": "Laws should be written and codified so everyone knows what they are",
+      "subtlepos": "The law should be flexible and adaptable",
+      "subtleneg": "Clarity and predictability in law is essential"
+  },
+  {
+      "label": "hierarchical",
+      "origin":"politics",
+      "positive": "A structured society with clear roles and responsibilities is the most efficient",
+      "negative": "All people should have equal power and influence in society",
+      "subtlepos": "Leadership and authority are necessary for order",
+      "subtleneg": "Power should be distributed equally among all members of society"
+  },
+  {
+      "label": "equality",
+      "origin":"politics",
+      "positive": "All people should have equal power and influence in society",
+      "negative": "A structured society with clear roles and responsibilities is the most efficient",
+      "subtlepos": "Power should be distributed equally among all members of society",
+      "subtleneg": "Leadership and authority are necessary for order"
+  },
+  {
+      "label": "radical",
+      "origin":"politics",
+      "positive": "We need drastic changes to address the systemic issues in our society",
+      "negative": "Incremental changes are the best way to improve society",
+      "subtlepos": "The status quo is not acceptable",
+      "subtleneg": "We should be cautious about making big changes"
+  },
+  {
+      "label": "moderate",
+      "origin":"politics",
+      "positive": "Incremental changes are the best way to improve society",
+      "negative": "We need drastic changes to address the systemic issues in our society",
+      "subtlepos": "We should be cautious about making big changes",
+      "subtleneg": "The status quo is not acceptable"
+  },
+  {
+      "label": "political",
+      "origin":"politics",
+      "positive": "Engaging in politics is crucial for shaping our society",
+      "negative": "Politics is a waste of time and energy",
+      "subtlepos": "Every vote counts",
+      "subtleneg": "My vote doesn't make a difference"
+  },
+  {
+      "label": "apolitical",
+      "origin":"politics",
+      "positive": "Politics is a waste of time and energy",
+      "negative": "Engaging in politics is crucial for shaping our society",
+      "subtlepos": "My vote doesn't make a difference",
+      "subtleneg": "Every vote counts"
+  },
+  {
+      "label": "direct",
+      "origin":"politics",
+      "positive": "People should have a direct say in the decisions that affect them",
+      "negative": "Decisions should be made by elected representatives",
+      "subtlepos": "Democracy is about the voice of the people",
+      "subtleneg": "We elect leaders to make decisions for us"
+  },
+  {
+      "label": "transitional",
+      "origin":"politics",
+      "positive": "Change should be gradual and carefully managed",
+      "negative": "We need immediate and radical changes",
+      "subtlepos": "Slow and steady wins the race",
+      "subtleneg": "The time for action is now"
+  },
+  {
+      "label": "libertarian",
+      "origin":"politics",
+      "positive": "Individual freedom and limited government intervention is key to a prosperous society",
+      "negative": "The government should regulate the economy and provide for the welfare of its citizens",
+      "subtlepos": "People should be free to make their own choices",
+      "subtleneg": "The government should take care of its people"
+  },
+  {
+      "label": "authoritarian",
+      "origin":"politics",
+      "positive": "A strong central authority is necessary to maintain order and stability",
+      "negative": "Individual freedom and limited government intervention is key to a prosperous society",
+      "subtlepos": "Order and discipline are paramount",
+      "subtleneg": "People should be free to make their own choices"
+  },
+  {
+      "label": "primitivism",
+      "origin":"politics",
+      "positive": "We should return to a simpler, more natural way of life",
+      "negative": "Technological progress is essential for improving our lives",
+      "subtlepos": "Nature has all the answers",
+      "subtleneg": "We need more advanced technology"
+  },
+  {
+      "label": "particular",
+      "origin":"politics",
+      "positive": "Each community should have the right to govern itself according to its own values and traditions",
+      "negative": "There should be universal standards and principles that all communities must adhere to",
+      "subtlepos": "Local solutions for local problems",
+      "subtleneg": "One size fits all"
+  },
+  {
+      "label": "universal",
+      "origin":"politics",
+      "positive": "There should be universal standards and principles that all communities must adhere to",
+      "negative": "Each community should have the right to govern itself according to its own values and traditions",
+      "subtlepos": "One size fits all",
+      "subtleneg": "Local solutions for local problems"
+  },
+  {
+      "label": "nationalism",
+      "origin":"politics",
+      "positive": "A nation should prioritize its own interests over global cooperation",
+      "negative": "We should strive for international cooperation and collaboration to address global challenges and promote peace, prosperity, and equality for all nations.",
+      "subtlepos": "Our country first",
+      "subtleneg": "The world is but one interconnected tapestry"
+  },
+  {
+      "label": "capitalism",
+      "origin":"politics",
+      "positive": "The free market is the most efficient and equitable economic system",
+      "negative": "The government should control the means of production and distribution of goods",
+      "subtlepos": "Competition drives innovation",
+      "subtleneg": "Wealth should be distributed equally among all members of society"
+  },
+  {
+      "label": "socialism",
+      "origin":"politics",
+      "positive": "The government should control the means of production and distribution of goods",
+      "negative": "The free market is the most efficient and equitable economic system",
+      "subtlepos": "Wealth should be distributed equally among all members of society",
+      "subtleneg": "Competition drives innovation"
+  },
+  {
+      "label": "decelerationism",
+      "origin":"politics",
+      "positive": "We need to slow down technological progress to preserve our humanity and environment",
+      "negative": "Technological progress is essential for improving our lives",
+      "subtlepos": "Slow and steady wins the race",
+      "subtleneg": "The time for action is now"
+  },
+  {
+      "label": "accelerationism",
+      "origin":"politics",
+      "positive": "We need to speed up technological progress to solve our problems",
+      "negative": "We need to slow down technological progress to preserve our humanity and environment",
+      "subtlepos": "The time for action is now",
+      "subtleneg": "Slow and steady wins the race"
+  },
+  {
+      "label": "free economy",
+      "origin":"politics",
+      "positive": "The market should be free from government intervention",
+      "negative": "The government should regulate the economy to ensure fairness",
+      "subtlepos": "Let the market decide",
+      "subtleneg": "The government needs to step in"
+  },
+  {
+      "label": "planned economy",
+      "origin":"politics",
+      "positive": "The government should regulate the economy to ensure fairness",
+      "negative": "The market should be free from government intervention",
+      "subtlepos": "The government needs to step in",
+      "subtleneg": "Let the market decide"
+  },
+  {
+      "label": "multicultural",
+      "origin":"politics",
+      "positive": "Cultural diversity enriches our society and should be celebrated",
+      "negative": "Cultural homogeneity is necessary for social cohesion",
+      "subtlepos": "Diversity is our strength",
+      "subtleneg": "We should all share the same culture"
+  },
+  {
+      "label": "monocultural",
+      "origin":"politics",
+      "positive": "Cultural homogeneity is necessary for social cohesion",
+      "negative": "Cultural diversity enriches our society and should be celebrated",
+      "subtlepos": "We should all share the same culture",
+      "subtleneg": "Diversity is our strength"
+  },
+  {
+      "label": "punative law",
+      "origin":"politics",
+      "positive": "Criminals should be punished to deter others from committing crimes",
+      "negative": "The focus of the justice system should be on rehabilitating criminals",
+      "subtlepos": "An eye for an eye",
+      "subtleneg": "People can change"
+  },
+  {
+      "label": "rehabilatative law",
+      "origin":"politics",
+      "positive": "The focus of the justice system should be on rehabilitating criminals",
+      "negative": "Criminals should be punished to deter others from committing crimes",
+      "subtlepos": "People can change",
+      "subtleneg": "An eye for an eye"
+  }
+   ]
+}
